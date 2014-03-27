@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+
+<channel>
+
+<atom:link href="http://podigious.com/xml/podcast.xml" rel="self" type="application/rss+xml"/>
+
+<title>Podigious</title>
+
+<link>http://podigious.com</link>
+
+<language>en</language>
+
+<itunes:subtitle>A critically nostalgic tour through the Digimon multiverse.</itunes:subtitle>
+
+<itunes:author>Jeff Ruberg, Ash Sofman, and Ashley McDonnell</itunes:author>
+<copyright>2014 Jeff Ruberg, Ash Sofman, and Ashley McDonnell</copyright>
+
+<itunes:explicit>no</itunes:explicit>
+
+<itunes:keywords>digimon,anime</itunes:keywords>
+
+<itunes:summary>A Digimon fan podcast analyzing and discussing the Digimon anime series.</itunes:summary>
+
+<description>A Digimon fan podcast analyzing and discussing the Digimon anime series.</description>
+
+<itunes:owner>
+
+<itunes:name>Jeff Ruberg</itunes:name>
+
+<itunes:email>rubergly@gmail.com</itunes:email>
+
+</itunes:owner>
+
+<itunes:image href="http://podigious.com/img/artwork.jpg" />
+
+<itunes:category text="TV &amp; Film" />
+
+<itunes:new-feed-url>http://www.fromthepub.com/podcast.xml</itunes:new-feed-url>
+
+ 
+ 
+ <item>
+ 
+ <title>Episode #1—That's Too Much Dinosaur</title>
+ 
+ <itunes:author>Jeff Ruberg, Ash Sofman, &amp; Ashley McDonnell</itunes:author>
+ 
+ <itunes:subtitle>Episode #1—That's Too Much Dinosaur</itunes:subtitle>
+ <description>Episode #1—That's Too Much Dinosaur</description>
+ 
+ <content:encoded><![CDATA[&lt;p&gt;In the debut episode of Podigious, we discuss our goals for the show and give some perspective about some of our favorite aspects of Digimon.&lt;/p&gt;
+]]></content:encoded>
+ 
+ <itunes:image href="http://podigious.com/img/artwork.jpg" />
+ 
+ <enclosure url="http://d.5by5.net/redirect.mp3/cdn.5by5.tv/audio/broadcasts/hypercritical/2012/hypercritical-100.mp3" length="46500000" type="audio/x-m4a" />
+ 
+ <guid>http://d.5by5.net/redirect.mp3/cdn.5by5.tv/audio/broadcasts/hypercritical/2012/hypercritical-100.mp3</guid>
+ 
+ <pubDate>Thu, 27 Mar 2014 00:00:00 GMT</pubDate>
+ 
+ <itunes:duration>1:41:38</itunes:duration>
+ 
+ <itunes:keywords>digimon,anime</itunes:keywords>
+ 
+ </item>
+
+ 
+
+</channel>
+
+</rss>
