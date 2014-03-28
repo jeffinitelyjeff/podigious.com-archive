@@ -5,7 +5,7 @@ body {
   margin-right: 0px;
   line-height: 1.5em;
   color: rgba(103, 118, 154, 1.0);
-  background-color: rgba(29, 44, 77, 1.0);
+  background-color: white;
   font-family: 'Nunito', sans-serif;
   }
 
@@ -77,7 +77,7 @@ a:visited {
   color: rgba(138, 121, 80, 1.0);
   }
 h1 {
-  font-family: 'Jura', sans-serif;
+  font-family: 'Francois One', sans-serif;
 }
 h1 a:link, h3 a:visited {
   color: rgba(29, 44, 77, 1.0);
