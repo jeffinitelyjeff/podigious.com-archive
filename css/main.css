@@ -7,6 +7,7 @@ body {
   color: rgba(103, 118, 154, 1.0);
   background-color: white;
   font-family: 'Nunito', sans-serif;
+  background-color: rgba(54, 91, 159, 1.0);
   }
 
 a {
@@ -23,7 +24,6 @@ a {
   min-width: 724px;
   max-width: 1024px;
   padding-top: 2.9em;
-  background-color: rgba(54, 91, 159, 1.0);
   }
 #leftsidebar {
   color: rgba(103, 118, 154, 1.0);
