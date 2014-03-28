@@ -4,10 +4,9 @@ body {
   margin-left: 0px;
   margin-right: 0px;
   line-height: 1.5em;
-  font-family: Georgia, serif;
   color: rgba(103, 118, 154, 1.0);
   background-color: rgba(29, 44, 77, 1.0);
-  font-family: Helvetica, sans-serif;
+  font-family: 'Nunito', sans-serif;
   }
 
 a {
