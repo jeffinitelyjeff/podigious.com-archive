@@ -76,12 +76,12 @@ a:hover {
 .weblogPostDateline a:hover {
   color: #d3c71d;
 }
-h1 {
-  color: #ddbb33;
+h1 a:link {
+  color: #C0A021;
   font-family: 'Francois One', sans-serif;
 }
 h1 a:visited {
-  color: #C0A021;
+  color: #ddbb33;
   }
 h1 a:hover {
   color: #ffee00;
