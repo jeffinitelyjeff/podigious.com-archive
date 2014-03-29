@@ -1,0 +1,2 @@
+echo "url: http://localhost:4000" >> _config.yml
+jekyll serve --watch

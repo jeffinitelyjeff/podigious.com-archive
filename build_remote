@@ -1,0 +1,2 @@
+echo "url: http://podigious.com" >> _config.yml
+jekyll build --destination ../podigious.com

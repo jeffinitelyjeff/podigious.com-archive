@@ -1,8 +1,5 @@
 body {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin: 46px 46px 0 46px;
   line-height: 1.5em;
   background-color: rgba(54, 91, 159, 1.0);
   color: #1F1F1F;
@@ -16,13 +13,9 @@ a {
   transition: all 0.2s ease-in-out;
   }
 #pagebox {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1em;
-  margin-top: 0.1em;
+  margin: 0 auto;
   min-width: 724px;
   max-width: 1024px;
-  padding-top: 2.9em;
   }
 #leftsidebar {
   display: table-cell;
@@ -30,9 +23,12 @@ a {
   padding-top: 5em;
   padding-right: 5em;
   width: 300px;
-  min-width: 300px;
+  min-width: 200px;
   max-width: 300px;
   padding-top: 0;
+}
+#logo {
+  width: 100%;
 }
 a:link {
   color: #ddbb33;
@@ -96,21 +92,23 @@ h1 a:hover {
   font-size: 1.25em;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 600px) {
   #pagebox {
     min-width: 300px;
-    padding-top: 1em;
+  }
+  body {
+    margin: 0 0 0 0;
   }
   #leftsidebar {
     display: block;
-    padding-top: 0em;
-    padding-right: 0em;
-    min-width: 300px;
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    background-cxolor: red;
- }
+    width: auto;
+    min-width: none;
+    max-width: none;
+    padding: 10px 20px 0 20px;
+  }
+  #leftsidebar p {
+    margin-left: 0;
+  }
   #content {
     display: block;
     min-width: 300px;
@@ -122,6 +120,7 @@ h1 a:hover {
     padding-bottom: 3em;
     }
 }
+
 div.audiojs {
   margin-bottom: 20px;
 }
