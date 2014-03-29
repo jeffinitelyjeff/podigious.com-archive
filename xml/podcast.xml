@@ -4,11 +4,11 @@
 
 <channel>
 
-<atom:link href="podigious.com/xml/podcast.xml" rel="self" type="application/rss+xml"/>
+<atom:link href="http://podigious.com/xml/podcast.xml" rel="self" type="application/rss+xml"/>
 
 <title>Podigious</title>
 
-<link>podigious.com</link>
+<link>http://podigious.com</link>
 
 <language>en</language>
 
@@ -33,7 +33,7 @@
 
 </itunes:owner>
 
-<itunes:image href="podigious.com/img/artwork.jpg" />
+<itunes:image href="http://podigious.com/img/artwork.jpg" />
 
 <itunes:category text="TV &amp; Film" />
 
@@ -59,7 +59,7 @@
 &lt;p&gt;More&lt;/p&gt;
 ]]></content:encoded>
  
- <itunes:image href="podigious.com/img/artwork.jpg" />
+ <itunes:image href="http://podigious.com/img/artwork.jpg" />
  
  <enclosure url="http://d.5by5.net/redirect.mp3/cdn.5by5.tv/audio/broadcasts/hypercritical/2012/hypercritical-100.mp3" length="46500000" type="audio/x-m4a" />
  
@@ -93,7 +93,7 @@
 &lt;p&gt;More&lt;/p&gt;
 ]]></content:encoded>
  
- <itunes:image href="podigious.com/img/artwork.jpg" />
+ <itunes:image href="http://podigious.com/img/artwork.jpg" />
  
  <enclosure url="http://d.5by5.net/redirect.mp3/cdn.5by5.tv/audio/broadcasts/hypercritical/2012/hypercritical-100.mp3" length="46500000" type="audio/x-m4a" />
  
