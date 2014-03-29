@@ -40,34 +40,6 @@
 <itunes:new-feed-url>http://www.fromthepub.com/podcast.xml</itunes:new-feed-url>
 
  
- 
- <item>
- 
- <title>Coming Soon</title>
- 
- <itunes:author>Jeff Ruberg, Ash Sofman, &amp; Ashley McDonnell</itunes:author>
- 
- <itunes:subtitle>Coming Soon</itunes:subtitle>
- <description>Coming Soon</description>
- 
- <content:encoded><![CDATA[&lt;p&gt;We&amp;#39;re going to hatch soon! Follow us on &lt;a href=&quot;http://twitter.com/podigious&quot;&gt;Twitter&lt;/a&gt; to find out!&lt;/p&gt;
-]]></content:encoded>
- 
- <itunes:image href="http://podigious.com/img/artwork.jpg" />
- 
- <enclosure url="" length="" type="audio/x-m4a" />
- 
- <guid></guid>
- 
- <pubDate>Fri, 28 Mar 2014 00:00:00 GMT</pubDate>
- 
- <itunes:duration></itunes:duration>
- 
- <itunes:keywords>digimon,anime</itunes:keywords>
- 
- </item>
-
- 
 
 </channel>
 

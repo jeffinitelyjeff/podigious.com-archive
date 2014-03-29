@@ -59,7 +59,7 @@ a:hover {
   padding-bottom: 2em;
   display: table-cell;
   vertical-align: top;
-  min-width: 350px;
+  min-width: 300px;
   padding: 25px 45px 0 45px;
 }
 .weblogPost {
