@@ -4,11 +4,11 @@
 
 <channel>
 
-<atom:link href="http://podigious.com/xml/podcast.xml" rel="self" type="application/rss+xml"/>
+<atom:link href="http://localhost:4000/xml/podcast.xml" rel="self" type="application/rss+xml"/>
 
 <title>Podigious</title>
 
-<link>http://podigious.com</link>
+<link>http://localhost:4000</link>
 
 <language>en</language>
 
@@ -33,11 +33,45 @@
 
 </itunes:owner>
 
-<itunes:image href="http://podigious.com/img/artwork.jpg" />
+<itunes:image href="http://localhost:4000/img/artwork.jpg" />
 
 <itunes:category text="TV &amp; Film" />
 
 <itunes:new-feed-url>http://www.fromthepub.com/podcast.xml</itunes:new-feed-url>
+
+ 
+ 
+ <item>
+ 
+ <title>Episode #2—That's Too Much Dinosaur</title>
+ 
+ <itunes:author>Jeff Ruberg, Ash Sofman, &amp; Ashley McDonnell</itunes:author>
+ 
+ <itunes:subtitle>Episode #2—That's Too Much Dinosaur</itunes:subtitle>
+ <description>Episode #2—That's Too Much Dinosaur</description>
+ 
+ <content:encoded><![CDATA[&lt;p&gt;In the debut episode of Podigious, we discuss our goals for the podcast, and introduce ourselves by talking about our favorite aspects of Digimon.&lt;/p&gt;
+
+&lt;p&gt;More&lt;/p&gt;
+
+&lt;p&gt;More&lt;/p&gt;
+
+&lt;p&gt;More&lt;/p&gt;
+]]></content:encoded>
+ 
+ <itunes:image href="http://localhost:4000/img/artwork.jpg" />
+ 
+ <enclosure url="http://d.5by5.net/redirect.mp3/cdn.5by5.tv/audio/broadcasts/hypercritical/2012/hypercritical-100.mp3" length="46500000" type="audio/x-m4a" />
+ 
+ <guid>http://d.5by5.net/redirect.mp3/cdn.5by5.tv/audio/broadcasts/hypercritical/2012/hypercritical-100.mp3</guid>
+ 
+ <pubDate>Fri, 28 Mar 2014 00:00:00 GMT</pubDate>
+ 
+ <itunes:duration>1:41:38</itunes:duration>
+ 
+ <itunes:keywords>digimon,anime</itunes:keywords>
+ 
+ </item>
 
  
  
@@ -50,10 +84,16 @@
  <itunes:subtitle>Episode #1—That's Too Much Dinosaur</itunes:subtitle>
  <description>Episode #1—That's Too Much Dinosaur</description>
  
- <content:encoded><![CDATA[&lt;p&gt;In the debut episode of Podigious, we discuss our goals for the show and give some perspective about some of our favorite aspects of Digimon.&lt;/p&gt;
+ <content:encoded><![CDATA[&lt;p&gt;In the debut episode of Podigious, we discuss our goals for the podcast, and introduce ourselves by talking about our favorite aspects of Digimon.&lt;/p&gt;
+
+&lt;p&gt;More&lt;/p&gt;
+
+&lt;p&gt;More&lt;/p&gt;
+
+&lt;p&gt;More&lt;/p&gt;
 ]]></content:encoded>
  
- <itunes:image href="http://podigious.com/img/artwork.jpg" />
+ <itunes:image href="http://localhost:4000/img/artwork.jpg" />
  
  <enclosure url="http://d.5by5.net/redirect.mp3/cdn.5by5.tv/audio/broadcasts/hypercritical/2012/hypercritical-100.mp3" length="46500000" type="audio/x-m4a" />
  
