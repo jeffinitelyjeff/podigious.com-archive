@@ -1,2 +1,14 @@
+#!/bin/bash -ex
+
 echo "url: http://podigious.com" >> _config.yml
 jekyll build --destination ../podigious.com
+
+if grep -r "localhost" *; then 
+  if grep -r "ansem.local" *; then
+    ( cd ../podigious.com && git add . && git commit -am "more" && git push origin gh-pages )
+  else
+    echo "won't deploy because we found references to ansem.local"
+  fi
+else
+  echo "won't deploy because we found references to localhost"
+fi

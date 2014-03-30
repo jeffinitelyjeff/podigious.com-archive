@@ -1,2 +1,4 @@
+#!/bin/bash -ex
+
 echo "url: http://ansem.local:4000" >> _config.yml
-jekyll serve --watch
+jekyll serve --watch --drafts
