@@ -282,21 +282,28 @@ div.audiojs {
   background: linear-gradiant(#243D6A, #1A2C4C) !important;
 */}
 
-.error404 {
+img.error404 {
   display: block;
   margin: 0 auto;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 p.error404 {
   font-size: 30px;
+  line-height: 35px;
   font-weight: normal;
   text-align: center;
   color: #FFFCD6;
   margin-top: 20px;
+  padding: 0 10px 0 10px;
 }
 
 .botamon.error404 {
-  width: 150px;
+  max-width: 150px;
+}
+
+.infermon.error404 {
+  max-width: 500px;
 }
 
