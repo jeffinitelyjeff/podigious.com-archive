@@ -206,7 +206,7 @@ div.audiojs {
   background: #365A9E !important; // #243D6A !important;
 }
 
-.podlovewebplayer_wrapper .subtitle, .podlovewebplayer_wrapper td {
+.podlovewebplayer_wrapper .subtitle, .podlovewebplayer_wrapper td span {
   font-family: 'Nunito', sans-serif !important;
   font-weight: 300 !important;
   font-size: 14px !important;
@@ -281,4 +281,22 @@ div.audiojs {
   background: -ms-linear-gradient(top, #243D6A, #1A2C4C) !important;
   background: linear-gradiant(#243D6A, #1A2C4C) !important;
 */}
+
+.error404 {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+p.error404 {
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  color: #FFFCD6;
+  margin-top: 20px;
+}
+
+.botamon.error404 {
+  width: 150px;
+}
 
