@@ -4,42 +4,126 @@
 
 <channel>
 
-<atom:link href="http://podigious.com/xml/podcast.xml" rel="self" type="application/rss+xml"/>
+  <atom:link href="http://podigious.com/xml/podcast.xml" rel="self" type="application/rss+xml"/>
 
-<title>Podigious</title>
+  <title>Podigious!</title>
+  <link>http://podigious.com</link>
+  <copyright>2014 Jeff Ruberg, Ashley McDonnell, Ash Sofman</copyright>
+  <language>en</language>
 
-<link>http://podigious.com</link>
+  <itunes:author>Jeff Ruberg, Ashley McDonnell, Ash Sofman</itunes:author>
+  <itunes:explicit>no</itunes:explicit>
+  <itunes:keywords>digimon,anime</itunes:keywords>
+  <itunes:image href="http://podigious.com/img/artwork.jpg" />
+  <itunes:category text="TV &amp; Film" />
 
-<language>en</language>
+  <itunes:subtitle>A Digimon podcast</itunes:subtitle>
+  <itunes:summary>A critically nostalgic, analytical podcast tour through the Digimon multiverse.</itunes:summary>
+  <description>A critically nostalgic, analytical podcast tour through the Digimon multiverse.</description>
 
-<itunes:subtitle>A critically nostalgic tour through the Digimon multiverse.</itunes:subtitle>
+  <itunes:owner>
+    <itunes:name>Jeff Ruberg, Ashley McDonnell, Ash Sofman</itunes:name>
+    <itunes:email>podigious@gmail.com</itunes:email>
+  </itunes:owner>
 
-<itunes:author>Jeff Ruberg, Ash Sofman, and Ashley McDonnell</itunes:author>
-<copyright>2014 Jeff Ruberg, Ash Sofman, and Ashley McDonnell</copyright>
+  
+  <item>
+    <title>1. That's Too Much Dinosaur</title>
+    <itunes:subtitle>A podcast is born!</itunes:subtitle>
+    <itunes:author>Jeff Ruberg, Ashley McDonnell, Ash Sofman</itunes:author>
+    <description>In the debut episode of Podigious, we discuss our goals for the podcast, and introduce ourselves by talking about our favorite aspects of Digimon.
+You can find the full show notes for this episode at http://podigious.com/1.</description>
+    <itunes:summary>In the debut episode of Podigious, we discuss our goals for the podcast, and introduce ourselves by talking about our favorite aspects of Digimon.
+You can find the full show notes for this episode at http://podigious.com/1.</itunes:summary>
+    <pubDate>Mon, 31 Mar 2014 00:00:00 GMT</pubDate>
+    <guid>http://audio.podigious.com/podigious_1.m4a</guid>
+    <itunes:duration>0:39:09</itunes:duration>
 
-<itunes:explicit>no</itunes:explicit>
-
-<itunes:keywords>digimon,anime</itunes:keywords>
-
-<itunes:summary>A critically nostalgic, analytical podcast tour through the Digimon multiverse.</itunes:summary>
-
-<description>A critically nostalgic, analytical podcast tour through the Digimon multiverse.</description>
-
-<itunes:owner>
-
-<itunes:name>Jeff Ruberg</itunes:name>
-
-<itunes:email>rubergly@gmail.com</itunes:email>
-
-</itunes:owner>
-
-<itunes:image href="http://podigious.com/img/artwork.jpg" />
-
-<itunes:category text="TV &amp; Film" />
-
-<itunes:new-feed-url>http://www.fromthepub.com/podcast.xml</itunes:new-feed-url>
-
+    <itunes:image href="http://podigious.com/img/artwork.jpg" />
  
+    <content:encoded><![CDATA[
+<p>In the debut episode of Podigious, we discuss our goals for the podcast, and introduce ourselves by talking about our favorite aspects of Digimon.
+You can find the full show notes for this episode at http://podigious.com/1.</p>
+<h3>Sections</h3>
+<ul>
+
+<li>00:00: Intro</li>
+
+<li>07:45: Favorite Seasons</li>
+
+<li>19:17: Favorite Characters</li>
+
+<li>25:38: Favorite Villains</li>
+
+<li>30:25: Favorite Designs</li>
+
+<li>37:44: Outro</li>
+
+</ul>
+<h3>Spoilers</h3>
+<ul>
+
+<li>26:40: Adventure 02 (6 seconds&mdash;until 26:46)</li>
+
+<li>26:46: Tamers (9 seconds&mdash;until 26:55)</li>
+
+<li>28:36: Adventure 02 (30 seconds&mdash;until 29:06)</li>
+
+</ul>
+<h3>Things Discussed</h3>
+<ul>
+
+<li>08:20: <a href="http://digimon.wikia.com/wiki/Digimon_Virtual_Pet">Digimon Virtual Pet</a></li>
+
+<li>08:27: <a href="http://digimon.wikia.com/wiki/Digimon_Adventure">Digimon Adventure</a></li>
+
+<li>08:39: <a href="http://digimon.wikia.com/wiki/Digimon_Adventure_02">Digimon Adventure 02</a></li>
+
+<li>08:54: <a href="http://digimon.wikia.com/wiki/Digimon_Tamers">Digimon Tamers</a></li>
+
+<li>09:15: <a href="http://digimon.wikia.com/wiki/Digimon_Frontier">Digimon Frontier</a></li>
+
+<li>09:41: <a href="http://digimon.wikia.com/wiki/Digimon_Data_Squad">Digimon Savers (Data Squad)</a></li>
+
+<li>10:04: <a href="http://digimon.wikia.com/wiki/Digimon_Fusion">Digimon Xros Wars (Fusion)</a></li>
+
+<li>14:24: <a href="http://en.wikipedia.org/wiki/The_Girl_Who_Leapt_Through_Time_(2006_film\)">The Girl Who Leapt Through Time</a></li>
+
+<li>14:32: <a href="http://en.wikipedia.org/wiki/Mamoru_Hosoda">Mamoru Hosoda</a></li>
+
+<li>16:53: <a href="http://www.giantbomb.com/txk/3030-42308/">TxK</a></li>
+
+<li>27:19: <a href="http://en.wikipedia.org/wiki/Serial_Experiments_Lain">Serial Experiments Lain</a></li>
+
+<li>27:27: <a href="http://en.wikipedia.org/wiki/Chiaki_J._Konaka">Chiaki Konaka</a></li>
+
+<li>34:13: <a href="http://digimon.wikia.com/wiki/Digivolution">Digivolution Levels</a></li>
+
+<li>36:41: <a href="http://en.wikipedia.org/wiki/Dinosaurs_(TV_series\)">Dinosaurs</a></li>
+
+</ul>
+      ]]></content:encoded>
+   
+    <enclosure url="http://audio.podigious.com/podigious_1.m4a" length="24178140" type="audio/x-m4a" />
+
+    <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
+      
+      <psc:chapter start="00:00" title="Intro" />
+      
+      <psc:chapter start="07:45" title="Favorite Seasons" />
+      
+      <psc:chapter start="19:17" title="Favorite Characters" />
+      
+      <psc:chapter start="25:38" title="Favorite Villains" />
+      
+      <psc:chapter start="30:25" title="Favorite Designs" />
+      
+      <psc:chapter start="37:44" title="Outro" />
+      
+    </psc:chapters>
+
+  </item>
+  
 
 </channel>
 
