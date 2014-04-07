@@ -8,10 +8,10 @@
 
   <title>Podigious!</title>
   <link>http://podigious.com</link>
-  <copyright>2014 Jeff Ruberg, Ashley McDonnell, Ash Sofman</copyright>
+  <copyright>2014 Jeff Ruberg, Ashley McDonnell, and Ash Sofman</copyright>
   <language>en</language>
 
-  <itunes:author>Jeff Ruberg, Ashley McDonnell, Ash Sofman</itunes:author>
+  <itunes:author>Jeff Ruberg, Ashley McDonnell, and Ash Sofman</itunes:author>
   <itunes:explicit>no</itunes:explicit>
   <itunes:keywords>digimon,anime</itunes:keywords>
   <itunes:image href="http://podigious.com/img/artwork.jpg" />
@@ -22,7 +22,7 @@
   <description>A critically nostalgic, analytical podcast tour through the Digimon multiverse.</description>
 
   <itunes:owner>
-    <itunes:name>Jeff Ruberg, Ashley McDonnell, Ash Sofman</itunes:name>
+    <itunes:name>Jeff Ruberg, Ashley McDonnell, and Ash Sofman</itunes:name>
     <itunes:email>podigious@gmail.com</itunes:email>
   </itunes:owner>
 
@@ -30,14 +30,16 @@
   <item>
     <title>1. That's Too Much Dinosaur</title>
     <itunes:subtitle>A podcast is born!</itunes:subtitle>
-    <itunes:author>Jeff Ruberg, Ashley McDonnell, Ash Sofman</itunes:author>
+    <itunes:author>Jeff Ruberg, Ashley McDonnell, and Ash Sofman</itunes:author>
     <description>In the debut episode of Podigious, we discuss our goals for the podcast, and introduce ourselves by talking about our favorite aspects of Digimon. You can find the full show notes for this episode at http://podigious.com/1.</description>
     <itunes:summary>In the debut episode of Podigious, we discuss our goals for the podcast, and introduce ourselves by talking about our favorite aspects of Digimon. You can find the full show notes for this episode at http://podigious.com/1.</itunes:summary>
     <pubDate>Mon, 31 Mar 2014 00:00:00 GMT</pubDate>
     <guid>http://audio.podigious.com/podigious_1.m4a</guid>
     <itunes:duration>0:39:09</itunes:duration>
 
+        
     <itunes:image href="http://podigious.com/img/artwork.jpg" />
+    
  
     <content:encoded><![CDATA[
 <p>In the debut episode of Podigious, we discuss our goals for the podcast, and introduce ourselves by talking about our favorite aspects of Digimon.</p><p>You can find the full show notes for this episode at <a href='http://podigious.com/1'>http://podigious.com/1</a>.
@@ -67,7 +69,11 @@
 <li>28:36: Adventure 02 (30 seconds&mdash;until 29:06)</li>
 
 </ul>
-<h3>Things Discussed</h3>
+<h3>Episodes Covered</h3>
+<ul>
+
+</ul>
+<h3>Things Mentioned</h3>
 <ul>
 
 <li>08:20: <a href="http://digimon.wikia.com/wiki/Digimon_Virtual_Pet">Digimon Virtual Pet</a></li>
