@@ -347,8 +347,11 @@ p.error404 {
   display: block;
 }
 
+.img-box .ts {
+  font-weight: 700;
+}
+
 .ts:link, .ts:visited {
-  font-weight: bold;
   color: #101A2E;
 }
 
