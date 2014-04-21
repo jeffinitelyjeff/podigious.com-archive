@@ -194,6 +194,10 @@ h1 a:hover {
   #leftsidebar .sidebar-box-1 {
     margin-right: 5px;
   }
+  #leftsidebar .sidebar-box-2 p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   #leftsidebar .sidebar-box-3 {
     position: absolute;
     right: 20px;
