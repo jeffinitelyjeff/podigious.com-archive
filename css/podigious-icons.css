@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'podigious-icons';
-  src: url('../font/podigious-icons.eot?94678723');
-  src: url('../font/podigious-icons.eot?94678723#iefix') format('embedded-opentype'),
-       url('../font/podigious-icons.woff?94678723') format('woff'),
-       url('../font/podigious-icons.ttf?94678723') format('truetype'),
-       url('../font/podigious-icons.svg?94678723#podigious-icons') format('svg');
+  src: url('../font/podigious-icons.eot?40262425');
+  src: url('../font/podigious-icons.eot?40262425#iefix') format('embedded-opentype'),
+       url('../font/podigious-icons.woff?40262425') format('woff'),
+       url('../font/podigious-icons.ttf?40262425') format('truetype'),
+       url('../font/podigious-icons.svg?40262425#podigious-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'podigious-icons';
-    src: url('../font/podigious-icons.svg?94678723#podigious-icons') format('svg');
+    src: url('../font/podigious-icons.svg?40262425#podigious-icons') format('svg');
   }
 }
 */
@@ -52,6 +52,7 @@
  
 .icon-download-cloud:before { content: '\e809'; } /* '' */
 .icon-rss:before { content: '\e800'; } /* '' */
+.icon-right-hand:before { content: '\e802'; } /* '' */
 .icon-play:before { content: '\e808'; } /* '' */
 .icon-facebook:before { content: '\e805'; } /* '' */
 .icon-tumblr:before { content: '\e804'; } /* '' */

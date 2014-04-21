@@ -62,6 +62,16 @@
     ga('send', 'pageview');
 
   </script>
+
+  
+  <script>
+    $(document).ready(function(){ 
+      $("#huffduffer").click(function() {
+        window.open('http://huffduffer.com/add?popup=true&page='+encodeURIComponent(location.href),'huffduff','scrollbars=1,status=0,resizable=1,location=0,toolbar=0,width=360,height=480');
+      });
+    });
+  </script>
+  
 </head>
   
 <body>
@@ -149,6 +159,7 @@
     
     <div class="date-line">
       <a class="download" download href="http://audio.podigious.com/podigious_4.m4a" title="Podigious! 4. Elvis Monkey"><i class="shake icon-download-cloud"></i> Download (34.1 MB)</a> •
+      <a id="huffduffer" href="#"><i class="shake icon-right-hand"></i> Huffduff</a> •
       <span class="date">Apr 19, 2014</span>
     </div>  
     <p>
