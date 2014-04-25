@@ -61,6 +61,7 @@ a:hover, .show-attributions:hover, .hide-attributions:hover {
   padding: 25px 45px 0 45px;
 }
 .weblogPost {
+  /*margin-top: 40px;*/
   margin-bottom: 45px;
   /*margin-bottom: 2em;*/
   /*padding-top: 1em;*/
@@ -244,6 +245,7 @@ div.audiojs {
 .podlovewebplayer_wrapper {
   border-radius: 0 !important;
   background: #365A9E !important; // #243D6A !important;
+  margin-top: 40px;
 }
 
 .podlovewebplayer_wrapper td span {
@@ -503,4 +505,16 @@ p.error404 {
 }
 .shake {
   display:inline-block
+}
+
+img.banner {
+  width: 100%;
+}
+
+h1.banner-header {
+  margin-top: -52px;
+  padding-left: 10px;
+  text-shadow: 2px 2px 0 black, -2px 2px 0 black, 2px -2px 0 black, -2px -2px 0 black;
+  border: none;
+  margin-bottom: 15px;
 }
