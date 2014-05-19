@@ -130,7 +130,7 @@ h1 a:hover {
   .podlovewebplayer_wrapper .subtitle, .podlovewebplayer_meta .togglers, .podlovewebplayer_meta .coverart {
     /*display: none !important;*/
   }
-  #photos .img-box {
+  .img-wall .img-box {
     width: 50% !important;
   }
   .hosts {
@@ -139,31 +139,31 @@ h1 a:hover {
 }
 
 @media (min-width: 1000px) {
-  #photos .img-box {
+  .img-wall .img-box {
     width: 20% !important;
   }
 }
 
 @media (min-width: 900px) and (max-width: 1000px) {
-  #photos .img-box {
+  .img-wall .img-box {
     width: 25% !important;
   }
 }
 
 @media (min-width: 500px) and (max-width: 600px) {
-  #photos .img-box {
+  .img-wall .img-box {
     width: 33% !important;
   }
 }
 
 @media (min-width: 600px) and (max-width: 700px) {
-  #photos .img-box {
+  .img-wall .img-box {
     width: 25% !important;
   }
 }
 
 @media (min-width: 700px) and (max-width: 900px) {
-  #photos .img-box {
+  .img-wall .img-box {
     width: 33% !important;
   }
 }
@@ -241,7 +241,7 @@ div.audiojs {
   font-family: 'Nunito', sans-serif !important;
   font-size: 20px !important;
   color: #FFFCD6 !important;
-} 
+}
 .podlovewebplayer_wrapper {
   border-radius: 0 !important;
   background: #365A9E !important; // #243D6A !important;
@@ -311,7 +311,7 @@ div.audiojs {
   background: -moz-linear-gradient(top, #1A2C4C, #15233D) !important;
   background: -o-linear-gradient(top, #1A2C4C, #15233D) !important;
   background: -ms-linear-gradient(top, #1A2C4C, #15233D) !important;
-  background: linear-gradient(#1A2C4C, #15233D) !important; 
+  background: linear-gradient(#1A2C4C, #15233D) !important;
 }
 
 .podlovewebplayer_timecontrol {
@@ -349,11 +349,11 @@ p.error404 {
   max-width: 500px;
 }
 
-#photos {
+.img-wall {
   line-height: 0;
 }
 
-#photos .img-box {
+.img-wall .img-box {
   background-color: white;
 }
 
@@ -421,7 +421,13 @@ p.error404 {
   font-size: 14px;
   line-height: 14px;
   z-index: 2px;
-  text-shadow: 1px 1px 0 white, -1px 1px 0 white, 1px -1px 0 white, -1px -1px 0 white;
+  font-weight: bold;
+  color: black;
+  text-shadow:
+    1px 1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    -1px -1px 0 white;
 }
 
 .img-box .ts:hover, .img-box .source:hover {
@@ -451,7 +457,7 @@ p.error404 {
   cursor: pointer;
 }
 
-#photos {
+.img-wall {
   /* remove extar spacing between inline-block photos */
   font-size: 0px;
 
