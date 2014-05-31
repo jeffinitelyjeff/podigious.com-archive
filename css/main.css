@@ -136,6 +136,13 @@ h1 a:hover {
   .hosts {
     display: none;
   }
+
+  h1.banner-header {
+    margin-top: 0 !important;
+    margin-bottom: 5px !important;
+    padding-left: 0 !important;
+    text-shadow: none !important;
+  }
 }
 
 @media (min-width: 1000px) {
