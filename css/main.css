@@ -265,6 +265,10 @@ div.audiojs {
   font-family: 'Francois One', sans-serif !important;
 }
 
+h3 {
+  font-family: 'Francois One';
+}
+
 .chaptertr, .podlovewebplayer_timecontrol, .podlovewebplayer_chapters, .podlovewebplayer_chapterbox {
   background: none !important;
   border: none !important;
@@ -339,6 +343,7 @@ img.error404 {
 }
 
 p.error404 {
+  font-family: "Source Code Pro";
   font-size: 30px;
   line-height: 35px;
   font-weight: normal;
