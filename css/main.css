@@ -555,3 +555,9 @@ h1.banner-header {
   border: none;
   margin-bottom: 15px;
 }
+
+img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
