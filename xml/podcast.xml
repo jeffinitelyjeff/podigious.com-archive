@@ -58,6 +58,24 @@
 <h3>Sections</h3>
 <ul id="chapters">
   
+    <li>0:00:00: Intro</li>
+  
+    <li>0:00:27: Follow-up</li>
+  
+    <li>0:06:58: Recap</li>
+  
+    <li>0:08:13: Favorites</li>
+  
+    <li>0:10:54: General</li>
+  
+    <li>0:16:56: Intro to Digimon</li>
+  
+    <li>0:27:14: Identity</li>
+  
+    <li>0:28:56: Dialogue Draft</li>
+  
+    <li>0:31:20: Outro</li>
+  
 </ul>
 <h3>Episodes Covered</h3>
 <ul id="episodes">
@@ -138,6 +156,24 @@
     <enclosure url="http://audio.podigious.com/podigious_12.m4a" length="13620190" type="audio/x-m4a" />
 
     <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
+      
+      <psc:chapter start="0:00:00" title="Intro" />
+      
+      <psc:chapter start="0:00:27" title="Follow-up" />
+      
+      <psc:chapter start="0:06:58" title="Recap" />
+      
+      <psc:chapter start="0:08:13" title="Favorites" />
+      
+      <psc:chapter start="0:10:54" title="General" />
+      
+      <psc:chapter start="0:16:56" title="Intro to Digimon" />
+      
+      <psc:chapter start="0:27:14" title="Identity" />
+      
+      <psc:chapter start="0:28:56" title="Dialogue Draft" />
+      
+      <psc:chapter start="0:31:20" title="Outro" />
       
     </psc:chapters>
 
