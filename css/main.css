@@ -237,6 +237,8 @@ div.audiojs {
 
 .podlovewebplayer_meta {
   background: none !important;
+  border: 1px solid black !important;
+  border-radius: inherit !important;
 }
 
 .podlovewebplayer_wrapper .podlovewebplayer_meta .episodetitle, .podlovewebplayer_chapters td {
@@ -379,6 +381,7 @@ p.error404 {
   line-height: 0;
   opacity: 0.80;
   box-shadow: 1px 1px 0 black, -1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black;
+  background-color: white;
 }
 
 .nsfw img {
@@ -560,4 +563,34 @@ img {
   max-width: 100%;
   margin: 0 auto;
   display: block;
+}
+
+
+.link-host a {
+  font-size: 10pt;
+  color: rgb(54, 91, 159);
+}
+
+.link-host a:hover {
+  color: black;
+}
+
+.PDS_Poll {
+  width: 99%; overflow:hidden;
+}
+
+.PDS_Poll .pds-box {
+  border-radius: inherit !important;
+  width: 99% !important;
+  background-color: #4973C1 !important;
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: 300 !important;
+}
+
+.PDS_Poll .pds-input-label {
+  width: 90% !important;
+}
+
+.PDS_Poll .pds-question-inner {
+  text-align: center;
 }
