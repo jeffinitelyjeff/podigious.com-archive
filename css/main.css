@@ -594,3 +594,7 @@ img {
 .PDS_Poll .pds-question-inner {
   text-align: center;
 }
+
+.answer_img {
+  margin-top: 10px;
+}
