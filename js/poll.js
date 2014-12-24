@@ -7,7 +7,10 @@ $(document).ready(function() {
     ep9yoleilookathisiqhecoul: 'rdd_202_program_my_computer',
     ep10daviswheresyoleiizzys: 'rdd_202_glasses',
     ep10tentomonwelcometomytr: 'rdd_202_twig_house',
-    ep10kenhowdidagumongetawa: 'rdd_202_escape_clause'
+    ep10kenhowdidagumongetawa: 'rdd_202_escape_clause',
+    ep13teacherladiesandgentl: 'rdd_203_math',
+    ep13yoleibyincreasingthes: 'rdd_203_party',
+    ep13divermonnowthatswhati: 'rdd_203_redeye'
   }
 
   $('.PDS_Poll .pds-answer-span').each(function(i, elem) {
