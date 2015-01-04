@@ -19,7 +19,7 @@ $(document).ready(function() {
     ep17mattwelljusttakeastro: 'rdd_204_expired',
     ep17davishedoesntstandagh: 'rdd_204_ghost',
     ep17mattthosedishesaresod: 'rdd_204_dishes',
-    ep17ashleyohyeahstartingt: 'rdd_204_detention'
+    ep17tkohyeahstartingtomor: 'rdd_204_detention'
   }
 
   add_image = function(i, elem) {
