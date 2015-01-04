@@ -10,12 +10,25 @@ $(document).ready(function() {
     ep10kenhowdidagumongetawa: 'rdd_202_escape_clause',
     ep13teacherladiesandgentl: 'rdd_203_math',
     ep13yoleibyincreasingthes: 'rdd_203_party',
-    ep13divermonnowthatswhati: 'rdd_203_redeye'
+    ep13divermonnowthatswhati: 'rdd_203_redeye',
+    ep14yoleidoyouwanttoknoww: 'rdd_204_hobby',
+    ep14yoleicarefulhesacting: 'rdd_204_eggsactly',
+    ep15karidavisyouresoinsen: 'rdd_204_sensitive',
+    ep16joesansweringmachinei: 'rdd_204_biology',
+    ep16gatomonlaughtersjusta: 'rdd_204_laughter',
+    ep17mattwelljusttakeastro: 'rdd_204_expired',
+    ep17davishedoesntstandagh: 'rdd_204_ghost',
+    ep17mattthosedishesaresod: 'rdd_204_dishes',
+    ep17ashleyohyeahstartingt: 'rdd_204_detention'
   }
 
-  $('.PDS_Poll .pds-answer-span').each(function(i, elem) {
+  add_image = function(i, elem) {
     answer_text = $(elem).text();
     answer_key = answer_text.replace(/\W/g, '').toLowerCase().slice(0, 25);
+
+    // for generating the keys
+    console.log(answer_key);
+
     answer_name = image_table[answer_key];
     if (answer_name) {
       answer_file = '/img/' + answer_name + '.png';
@@ -23,5 +36,19 @@ $(document).ready(function() {
       img = $('<img class="answer_img" src="' + answer_file + '" />');
       $(elem).append(img);
     }
-  });
+  };
+
+  add_poll_images = function() {
+    $('.pds-answer-group').each(add_image);
+  };
+
+  add_result_images = function() {
+    $('.pds-answer-text').each(add_image);
+  };
+
+  add_poll_images();
+  // add_result_images();
+  // $('.pds-return-poll').click(function() { console.log("test"); setTimeout(1000, add_poll_images); });
+  // $('.pds-view-results').click(function() { console.log("test"); setTimeout(1000, add_result_images); });
+
 });

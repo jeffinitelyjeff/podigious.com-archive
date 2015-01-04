@@ -571,6 +571,14 @@ img {
   color: rgb(54, 91, 159);
 }
 
+.link-host {
+  visibility: hidden;
+}
+
+li:hover .link-host {
+  visibility: visible;
+}
+
 .link-host a:hover {
   color: black;
 }
