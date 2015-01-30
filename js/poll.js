@@ -19,7 +19,15 @@ $(document).ready(function() {
     ep17mattwelljusttakeastro: 'rdd_204_expired',
     ep17davishedoesntstandagh: 'rdd_204_ghost',
     ep17mattthosedishesaresod: 'rdd_204_dishes',
-    ep17tkohyeahstartingtomor: 'rdd_204_detention'
+    ep17tkohyeahstartingtomor: 'rdd_204_detention',
+    ep18veemonohdontworryabou: 'rdd_205_davis',
+    ep18tentomonwhatsshedoing: 'rdd_205_hammer',
+    ep19wormmonyouusedtolovet: 'rdd_205_bah',
+    ep19kenwheresmyvcrohiwish: 'rdd_205_vcr',
+    ep20tentomonwehave2option: 'rdd_205_quit',
+    ep20tkitlookslikesomethin: 'rdd_205_fantasy',
+    ep20gabumonthanksagumonyo: 'rdd_205_hot',
+    ep21digmoncomeoneveryonef: 'rdd_205_follow'
   }
 
   add_image = function(i, elem) {
