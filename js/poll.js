@@ -27,7 +27,16 @@ $(document).ready(function() {
     ep20tentomonwehave2option: 'rdd_205_quit',
     ep20tkitlookslikesomethin: 'rdd_205_fantasy',
     ep20gabumonthanksagumonyo: 'rdd_205_hot',
-    ep21digmoncomeoneveryonef: 'rdd_205_follow'
+    ep21digmoncomeoneveryonef: 'rdd_205_follow',
+    ep22veemongatomonwouldntl: 'rdd_206_digivolve',
+    ep22redvegiemontodaysentr: 'rdd_206_tuna',
+    ep23punimonitstoolatefory: 'rdd_206_cliches',
+    ep23punimonwerenotgoingto: 'rdd_206_arms',
+    ep25gatomonnogoforgatojef: 'rdd_206_gato',
+    ep27davissometimesiwishiz: 'rdd_206_smart',
+    ep27yoleiyourearealbadegg: 'rdd_206_scrambled',
+    ep28davisthisplacehasmore: 'rdd_206_computer',
+    ep29davisthisiswhyidontsu: 'rdd_206_websites'
   }
 
   add_image = function(i, elem) {
