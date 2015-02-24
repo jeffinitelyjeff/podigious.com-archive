@@ -36,7 +36,16 @@ $(document).ready(function() {
     ep27davissometimesiwishiz: 'rdd_206_smart',
     ep27yoleiyourearealbadegg: 'rdd_206_scrambled',
     ep28davisthisplacehasmore: 'rdd_206_computer',
-    ep29davisthisiswhyidontsu: 'rdd_206_websites'
+    ep29davisthisiswhyidontsu: 'rdd_206_websites',
+    ep31kariitsbeautifulyolei: 'rdd_207_beautiful',
+    ep31gatomonithinkbigbroth: 'rdd_207_big_brother',
+    ep32ankylomonnotsomuchfun: 'rdd_207_bottom',
+    ep32agumonalwayswiththewh: 'rdd_207_logic',
+    ep36mummymoneitherthisisa: 'rdd_207_matzah_ball',
+    ep36mummymontellmemygoodm: 'rdd_207_noodles',
+    ep37azulongmonyesizzyisqu: 'rdd_207_intelligent',
+    ep37azulongmonblackwargre: 'rdd_207_questions',
+    ep37daviswellkeeponeeyeon: 'rdd_207_davis',
   }
 
   add_image = function(i, elem) {
