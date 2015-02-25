@@ -618,3 +618,7 @@ li:hover .link-host {
   margin-top: 30px;
   border: 1px solid black;
 }
+
+#disqus_thread a {
+  color: #CCCA1D;
+}
