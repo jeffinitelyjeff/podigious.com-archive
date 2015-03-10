@@ -46,6 +46,14 @@ $(document).ready(function() {
     ep37azulongmonyesizzyisqu: 'rdd_207_intelligent',
     ep37azulongmonblackwargre: 'rdd_207_questions',
     ep37daviswellkeeponeeyeon: 'rdd_207_davis',
+    ep38guy1whataconcertthese: 'rdd_208_woodstock',
+    ep39yoleiahaghostgennaino: 'rdd_208_ghost',
+    ep39arukenimonwherearethe: 'rdd_208_cards',
+    ep39izzytaiwhydontyouwrit: 'rdd_208_sandwiches',
+    ep40chinesegeneralhuhweco: 'rdd_208_b_movie',
+    ep41joeitshoweverybodyisi: 'rdd_208_laid_back',
+    ep41tksgrandfatherprepare: 'rdd_208_versailles',
+    ep41crabmonillhandlethisl: 'rdd_208_arachnid',
   }
 
   add_image = function(i, elem) {
