@@ -54,6 +54,10 @@ $(document).ready(function() {
     ep41joeitshoweverybodyisi: 'rdd_208_laid_back',
     ep41tksgrandfatherprepare: 'rdd_208_versailles',
     ep41crabmonillhandlethisl: 'rdd_208_arachnid',
+    ep43davissodidadogchewony: 'rdd_209_ugly',
+    ep43daviswhatdontyouguysw: 'rdd_209_mute',
+    ep44davissoyourejoesbroth: 'rdd_209_cool',
+    ep45davisbullseyebabyashe: 'rdd_209_bullseye',
   }
 
   add_image = function(i, elem) {
