@@ -82,13 +82,13 @@ In this first episode of the newly launched *Ozigious*, we do a deep dive on the
 <h3>Sections</h3>
 <ul id="chapters">
   
-    <li>0:00:00: Ozigious Intro</li>
+    <li>0:00:00: Chapter 1</li>
   
-    <li>0:07:32: Hurricane Touchdown Intro</li>
+    <li>0:07:32: Chapter 2</li>
   
-    <li>0:12:18: Scene Walkthrough</li>
+    <li>0:12:18: Chapter 3</li>
   
-    <li>0:41:44: Outro</li>
+    <li>0:41:44: Chapter 4</li>
   
 </ul>
 
@@ -123,13 +123,13 @@ In this first episode of the newly launched *Ozigious*, we do a deep dive on the
     
     <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
       
-      <psc:chapter start="0:00:00" title="Ozigious Intro" />
+      <psc:chapter start="0:00:00" title="Chapter 1" />
       
-      <psc:chapter start="0:07:32" title="Hurricane Touchdown Intro" />
+      <psc:chapter start="0:07:32" title="Chapter 2" />
       
-      <psc:chapter start="0:12:18" title="Scene Walkthrough" />
+      <psc:chapter start="0:12:18" title="Chapter 3" />
       
-      <psc:chapter start="0:41:44" title="Outro" />
+      <psc:chapter start="0:41:44" title="Chapter 4" />
       
     </psc:chapters>
     
