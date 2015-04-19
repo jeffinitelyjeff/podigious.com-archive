@@ -1,5 +1,13 @@
 $(document).ready(function() {
-  image_table = {
+  var image_table = {
+    ep2tentomonjustthetempleb: 'rdd_201_temple',
+    ep2mojyamonbeingtheempero: 'rdd_201_cappucino',
+    ep4junigetallthecuteboyst: 'rdd_201_cute_boys',
+    ep4redvegiemonwoahdidiget: 'rdd_201_marriage',
+    ep5kennumberonedonteverta: 'rdd_201_sir',
+    ep5kenwormmonwhatisplanbw: 'rdd_201_plan_b',
+    ep6willtheownerofthegray7: 'rdd_201_747',
+    ep6yoleiwaithawkmoncomeba: 'rdd_201_california_roll',
     ep7digmonholdstillyoupile: 'rdd_202_scrap_metal',
     ep8karihesjustakidlikeyou: 'rdd_202_nice_friends',
     ep8kariwhereishetkizzynow: 'rdd_202_izzy',
@@ -58,9 +66,23 @@ $(document).ready(function() {
     ep43daviswhatdontyouguysw: 'rdd_209_mute',
     ep44davissoyourejoesbroth: 'rdd_209_cool',
     ep45davisbullseyebabyashe: 'rdd_209_bullseye',
+    ep46gatomondoyouevernotge: 'rdd_210_mail',
+    ep47arukenimonheypaildram: 'rdd_210_bucket',
+    ep47norikowithoutthedarks: 'rdd_210_potatoes',
+    ep48gatomonthatthatvoicek: 'rdd_210_myotismon',
+    ep48davisjustimagineitsth: 'rdd_210_soccer',
+    ep49malomyotismonoopsithi: 'rdd_210_broke',
+    ep50taiheyivegotanideadig: 'rdd_210_please',
+    ep50izzymakesureyoudontac: 'rdd_210_ramcat',
+    demiveemondavisguesswhath: 'rdd_211_what',
+    upamonitsabiggustofwindco: 'rdd_211_wind',
+    willishuhhesgotpantsnowje: 'rdd_211_pants',
+    terriermonwillisididntmea: 'rdd_211_ears',
+    wallaceletsgobackiwanttos: 'rdd_211_sleeping',
+    angemonthatsitangewomonwe: 'rdd_211_diapers'
   }
 
-  add_image = function(i, elem) {
+  var add_image = function(i, elem) {
     answer_text = $(elem).text();
     answer_key = answer_text.replace(/\W/g, '').toLowerCase().slice(0, 25);
 
@@ -76,11 +98,11 @@ $(document).ready(function() {
     }
   };
 
-  add_poll_images = function() {
+  var add_poll_images = function() {
     $('.pds-answer-group').each(add_image);
   };
 
-  add_result_images = function() {
+  var add_result_images = function() {
     $('.pds-answer-text').each(add_image);
   };
 
