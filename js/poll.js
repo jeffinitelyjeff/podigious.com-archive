@@ -79,7 +79,11 @@ $(document).ready(function() {
     willishuhhesgotpantsnowje: 'rdd_211_pants',
     terriermonwillisididntmea: 'rdd_211_ears',
     wallaceletsgobackiwanttos: 'rdd_211_sleeping',
-    angemonthatsitangewomonwe: 'rdd_211_diapers'
+    angemonthatsitangewomonwe: 'rdd_211_diapers',
+    yoleiihaveproblemswiththe: 'rdd_212_paparazzi',
+    davisveemonwhydidyouattac: 'rdd_212_one_eye',
+    angemonithinkweshouldhave: 'rdd_212_directions',
+    davislookhowcuteiwaswheni: 'rdd_212_little'
   }
 
   var add_image = function(i, elem) {

@@ -229,6 +229,9 @@ h1 a:hover {
   .hosts {
     display: none;
   }
+  .sidebar-box-2 .description, .sidebar-box-2 .subdescription {
+    display: none;
+  }
 }
 
 div.audiojs {
@@ -621,4 +624,32 @@ li:hover .link-host {
 
 #disqus_thread a {
   color: #CCCA1D;
+}
+
+.shirt-img {
+  background-image: url(/img/02_shirt_small.png);
+  background-position: 100% 0;
+  width: 126px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.shirt-img:hover {
+  background-position: 0 0;
+}
+
+.shirt-link {
+  text-align: center;
+}
+
+.stickers-available {
+  background-color: #678ACB;
+  border: 1px solid black;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+
+.stickers-available p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
