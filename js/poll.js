@@ -115,4 +115,16 @@ $(document).ready(function() {
   // $('.pds-return-poll').click(function() { console.log("test"); setTimeout(1000, add_poll_images); });
   // $('.pds-view-results').click(function() { console.log("test"); setTimeout(1000, add_result_images); });
 
+  var poll_header = $('#PDI_form8855023 .pds-question-top');
+  var poll_stuff = $('#PDI_form8855023 .pds-answer, #PDI_form8855023 .pds-vote');
+  var open_poll = $('<i class="icon-right-open"></i>');
+  var close_poll = $('<i class="icon-down-open"></i>').hide();
+
+  poll_header.click(function() {
+    poll_stuff.toggle();
+    open_poll.toggle();
+    close_poll.toggle();
+  });
+
+  poll_header.prepend(open_poll).prepend(close_poll);
 });

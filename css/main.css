@@ -137,11 +137,17 @@ h1 a:hover {
     display: none;
   }
 
-  h1.banner-header {
+/*  h1.banner-header {
     margin-top: 0 !important;
     margin-bottom: 5px !important;
     padding-left: 0 !important;
     text-shadow: none !important;
+  }
+*/
+
+  .banner-div h1.banner-header {
+    position: inherit !important;
+    margin: 5px 5px 5px 5px;
   }
 }
 
@@ -554,13 +560,30 @@ img.banner {
   width: 100%;
 }
 
-h1.banner-header {
+.banner-div h1.banner-header {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border: none;
+  text-shadow: 2px 2px 0 black, -2px 2px 0 black, 2px -2px 0 black, -2px -2px 0 black;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.banner-div {
+  position: relative;
+}
+
+/*h1.banner-header {
   margin-top: -52px;
   padding-left: 10px;
   text-shadow: 2px 2px 0 black, -2px 2px 0 black, 2px -2px 0 black, -2px -2px 0 black;
   border: none;
   margin-bottom: 15px;
 }
+*/
 
 img {
   max-width: 100%;
@@ -652,4 +675,23 @@ li:hover .link-host {
 .stickers-available p {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.PDS_Poll input[type=checkbox] {
+  position: relative;
+  top: -3px;
+}
+
+#pds-answer8855023 .pds-answer-group {
+  padding: 0 0 !important;
+  width: 50%;
+  display: inline-block !important;
+}
+
+#PDI_form8855023 .pds-answer, #PDI_form8855023 .pds-vote {
+  display: none;
+}
+
+#PDI_form8855023 .pds-question-top {
+  cursor: pointer;
 }
