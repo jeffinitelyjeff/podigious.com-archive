@@ -425,8 +425,11 @@ p.error404 {
   color: #101A2E;
 }
 
-.img-box .ts:hover, .ts:hover, .img-box .source:hover {
+.img-box .ts:hover, .ts:hover, .img-box .name:hover, .img-box .source:hover {
   color: #ffee00;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  transition: all 0.25s ease;
 }
 
 .img-box .ts {
@@ -436,8 +439,12 @@ p.error404 {
   font-size: 14px;
   line-height: 14px;
   z-index: 2px;
-  text-shadow: 1px 1px 0 #F6EDCB, -1px 1px 0 #F6EDCB, 1px -1px 0 #F6EDCB, -1px -1px 0 #F6EDCB;
-  color: black;
+  color: white;
+  text-shadow:
+    1px 1px 0 black,
+    -1px 1px 0 black,
+    1px -1px 0 black,
+    -1px -1px 0 black;
 }
 
 .img-box .source {
@@ -464,22 +471,26 @@ p.error404 {
   font-size: 14px;
   line-height: 14px;
   z-index: 2px;
-  font-weight: bold;
-  color: black;
+  font-weight: 700;
+  color: white;
   text-shadow:
-    1px 1px 0 white,
-    1px -1px 0 white,
-    -1px 1px 0 white,
-    -1px -1px 0 white;
+    1px 1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    -1px -1px 0 black;
 }
 
-.img-box .ts:hover, .img-box .source:hover {
-  text-shadow: 1px 1px 0 #0A111E, -1px 1px 0 #0A111E, 1px -1px 0 #0A111E, -1px -1px 0 #0A111E;
+/*.img-box .ts:hover, .img-box .source:hover, .img-box .name:hover {
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   transition: all 0.25s ease;
+  text-shadow:
+    1px 1px 0 #0A111E,
+    -1px 1px 0 #0A111E,
+    1px -1px 0 #0A111E,
+    -1px -1px 0 #0A111E;
 }
-
+*/
 .img-box:hover {
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
