@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'podigious-icons';
-  src: url('../font/podigious-icons.eot?23019659');
-  src: url('../font/podigious-icons.eot?23019659#iefix') format('embedded-opentype'),
-       url('../font/podigious-icons.woff?23019659') format('woff'),
-       url('../font/podigious-icons.ttf?23019659') format('truetype'),
-       url('../font/podigious-icons.svg?23019659#podigious-icons') format('svg');
+  src: url('../font/podigious-icons.eot?20645626');
+  src: url('../font/podigious-icons.eot?20645626#iefix') format('embedded-opentype'),
+       url('../font/podigious-icons.woff?20645626') format('woff'),
+       url('../font/podigious-icons.ttf?20645626') format('truetype'),
+       url('../font/podigious-icons.svg?20645626#podigious-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'podigious-icons';
-    src: url('../font/podigious-icons.svg?23019659#podigious-icons') format('svg');
+    src: url('../font/podigious-icons.svg?20645626#podigious-icons') format('svg');
   }
 }
 */
@@ -68,3 +68,6 @@
 .icon-empty:before { content: '\e80b'; } /* '' */
 .icon-right-open:before { content: '\e80c'; } /* '' */
 .icon-down-open:before { content: '\e80d'; } /* '' */
+.icon-plus:before { content: '\e80e'; } /* '' */
+.icon-paypal:before { content: '\e80f'; } /* '' */
+.icon-chat:before { content: '\e810'; } /* '' */

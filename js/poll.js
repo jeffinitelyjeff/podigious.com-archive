@@ -1,5 +1,13 @@
+if (!String.prototype.startsWith) {
+  String.prototype.startsWith = function(searchString, position) {
+    position = position || 0;
+    return this.indexOf(searchString, position) === position;
+  };
+}
+
 $(document).ready(function() {
   var image_table = {
+    // ep 201
     ep2tentomonjustthetempleb: 'rdd_201_temple',
     ep2mojyamonbeingtheempero: 'rdd_201_cappucino',
     ep4junigetallthecuteboyst: 'rdd_201_cute_boys',
@@ -8,6 +16,8 @@ $(document).ready(function() {
     ep5kenwormmonwhatisplanbw: 'rdd_201_plan_b',
     ep6willtheownerofthegray7: 'rdd_201_747',
     ep6yoleiwaithawkmoncomeba: 'rdd_201_california_roll',
+
+    // ep 202
     ep7digmonholdstillyoupile: 'rdd_202_scrap_metal',
     ep8karihesjustakidlikeyou: 'rdd_202_nice_friends',
     ep8kariwhereishetkizzynow: 'rdd_202_izzy',
@@ -16,9 +26,13 @@ $(document).ready(function() {
     ep10daviswheresyoleiizzys: 'rdd_202_glasses',
     ep10tentomonwelcometomytr: 'rdd_202_twig_house',
     ep10kenhowdidagumongetawa: 'rdd_202_escape_clause',
+
+    // ep 203
     ep13teacherladiesandgentl: 'rdd_203_math',
     ep13yoleibyincreasingthes: 'rdd_203_party',
     ep13divermonnowthatswhati: 'rdd_203_redeye',
+
+    // ep 204
     ep14yoleidoyouwanttoknoww: 'rdd_204_hobby',
     ep14yoleicarefulhesacting: 'rdd_204_eggsactly',
     ep15karidavisyouresoinsen: 'rdd_204_sensitive',
@@ -28,6 +42,8 @@ $(document).ready(function() {
     ep17davishedoesntstandagh: 'rdd_204_ghost',
     ep17mattthosedishesaresod: 'rdd_204_dishes',
     ep17tkohyeahstartingtomor: 'rdd_204_detention',
+
+    // ep 205
     ep18veemonohdontworryabou: 'rdd_205_davis',
     ep18tentomonwhatsshedoing: 'rdd_205_hammer',
     ep19wormmonyouusedtolovet: 'rdd_205_bah',
@@ -36,6 +52,8 @@ $(document).ready(function() {
     ep20tkitlookslikesomethin: 'rdd_205_fantasy',
     ep20gabumonthanksagumonyo: 'rdd_205_hot',
     ep21digmoncomeoneveryonef: 'rdd_205_follow',
+
+    // ep 206
     ep22veemongatomonwouldntl: 'rdd_206_digivolve',
     ep22redvegiemontodaysentr: 'rdd_206_tuna',
     ep23punimonitstoolatefory: 'rdd_206_cliches',
@@ -45,6 +63,8 @@ $(document).ready(function() {
     ep27yoleiyourearealbadegg: 'rdd_206_scrambled',
     ep28davisthisplacehasmore: 'rdd_206_computer',
     ep29davisthisiswhyidontsu: 'rdd_206_websites',
+
+    // ep 207
     ep31kariitsbeautifulyolei: 'rdd_207_beautiful',
     ep31gatomonithinkbigbroth: 'rdd_207_big_brother',
     ep32ankylomonnotsomuchfun: 'rdd_207_bottom',
@@ -54,6 +74,8 @@ $(document).ready(function() {
     ep37azulongmonyesizzyisqu: 'rdd_207_intelligent',
     ep37azulongmonblackwargre: 'rdd_207_questions',
     ep37daviswellkeeponeeyeon: 'rdd_207_davis',
+
+    // ep 208
     ep38guy1whataconcertthese: 'rdd_208_woodstock',
     ep39yoleiahaghostgennaino: 'rdd_208_ghost',
     ep39arukenimonwherearethe: 'rdd_208_cards',
@@ -62,10 +84,14 @@ $(document).ready(function() {
     ep41joeitshoweverybodyisi: 'rdd_208_laid_back',
     ep41tksgrandfatherprepare: 'rdd_208_versailles',
     ep41crabmonillhandlethisl: 'rdd_208_arachnid',
+
+    // ep 209
     ep43davissodidadogchewony: 'rdd_209_ugly',
     ep43daviswhatdontyouguysw: 'rdd_209_mute',
     ep44davissoyourejoesbroth: 'rdd_209_cool',
     ep45davisbullseyebabyashe: 'rdd_209_bullseye',
+
+    // ep 210
     ep46gatomondoyouevernotge: 'rdd_210_mail',
     ep47arukenimonheypaildram: 'rdd_210_bucket',
     ep47norikowithoutthedarks: 'rdd_210_potatoes',
@@ -74,16 +100,52 @@ $(document).ready(function() {
     ep49malomyotismonoopsithi: 'rdd_210_broke',
     ep50taiheyivegotanideadig: 'rdd_210_please',
     ep50izzymakesureyoudontac: 'rdd_210_ramcat',
+
+    // ep 211
     demiveemondavisguesswhath: 'rdd_211_what',
     upamonitsabiggustofwindco: 'rdd_211_wind',
     willishuhhesgotpantsnowje: 'rdd_211_pants',
     terriermonwillisididntmea: 'rdd_211_ears',
     wallaceletsgobackiwanttos: 'rdd_211_sleeping',
     angemonthatsitangewomonwe: 'rdd_211_diapers',
+
+    // ep 212
     yoleiihaveproblemswiththe: 'rdd_212_paparazzi',
     davisveemonwhydidyouattac: 'rdd_212_one_eye',
     angemonithinkweshouldhave: 'rdd_212_directions',
-    davislookhowcuteiwaswheni: 'rdd_212_little'
+    davislookhowcuteiwaswheni: 'rdd_212_little',
+
+    // poll prizes
+    adventureengdvdboxset: 'prize_s1_boxset',
+    adventure02engdvdboxset: 'prize_s2_boxset',
+    tamersengdvdboxset: 'prize_s3_boxset',
+    frontierengdvdboxset: 'prize_s4_boxset',
+    seasons14engdvdmegaboxset: 'prize_s14_boxset',
+    datasquadengdvdboxset: 'prize_s5_boxset',
+    adventurejpnbdboxset: 'prize_adventure_bds',
+    adventuretrijpnbds: 'prize_tri_bds',
+    cybersleuthps4: 'prize_cyber_sleuth',
+    cybersleuthvita: 'prize_cyber_sleuth',
+    dukemondarts: 'prize_dukemon_darts',
+    beelzebumondarts: 'prize_beelzebumon',
+    chaosdukemonfiguarts: 'prize_chaosdukemon',
+    wargreymondarts: 'prize_wargreymon',
+    metalgarurumonfiguarts: 'prize_metalgarurumon',
+    omegamondarts: 'prize_omegamon',
+    omegamonflowycapefiguarts: 'prize_omegamon_owg',
+    imperialdramondarts: 'prize_imperialdramon',
+    imperialdramonpmfiguarts: 'prize_imperialdramon_pm',
+    alphamonfiguarts: 'prize_alphamon',
+    taichiagumongem: 'prize_taichi_agumon',
+    yamatogabumongem: 'prize_yamato_gabumon',
+    takerupatamongem: 'prize_takeru_patamon',
+    hikaritailmongem: 'prize_hikari_tailmon',
+    kenwormmongem: 'prize_ken_wormmon',
+    takeruangemongem: 'prize_takeru_angemon',
+    hikariangewomongem: 'prize_hikari_angewomon',
+    digivicewatch: 'prize_digivice_watch',
+    adventuretricompleteselec: 'prize_digivice_tri_animation',
+    digivicever15vpet: 'prize_digivice_15'
   }
 
   var add_image = function(i, elem) {
@@ -95,7 +157,8 @@ $(document).ready(function() {
 
     answer_name = image_table[answer_key];
     if (answer_name) {
-      answer_file = '/img/' + answer_name + '.png';
+      var extension = answer_name.startsWith('prize_') ? '.jpg' : '.png';
+      var answer_file = '/img/' + answer_name + extension;
       // $(elem).text('');
       img = $('<img class="answer_img" src="' + answer_file + '" />');
       $(elem).append(img);
@@ -103,11 +166,11 @@ $(document).ready(function() {
   };
 
   var add_poll_images = function() {
-    $('.pds-answer-group').each(add_image);
+    $('.ep_poll .pds-answer-group').each(add_image);
   };
 
   var add_result_images = function() {
-    $('.pds-answer-text').each(add_image);
+    $('.ep_poll .pds-answer-text').each(add_image);
   };
 
   add_poll_images();
