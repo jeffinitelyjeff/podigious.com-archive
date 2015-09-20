@@ -145,7 +145,17 @@ $(document).ready(function() {
     hikariangewomongem: 'prize_hikari_angewomon',
     digivicewatch: 'prize_digivice_watch',
     adventuretricompleteselec: 'prize_digivice_tri_animation',
-    digivicever15vpet: 'prize_digivice_15'
+    digivicever15vpet: 'prize_digivice_15',
+
+    // ep 301
+    takatosmomcomeonagecreamw: 'rdd_301_thinking',
+    rikagetingearrenamonorwel: 'rdd_301_gear',
+    narratordaviswilltakatoge: 'rdd_301_grill',
+    principalstudentshouldnty: 'rdd_301_box',
+    definitelynotdavisdidgorr: 'rdd_301_bananas',
+    jeritakatoneedsagirlwhatf: 'rdd_301_girl',
+    calumonheyyouknowwhatyour: 'rdd_301_swallow',
+    takatoitsyouagainrikacant: 'rdd_301_you'
   }
 
   var add_image = function(i, elem) {

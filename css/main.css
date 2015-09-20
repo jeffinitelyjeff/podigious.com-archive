@@ -843,3 +843,46 @@ li:hover .link-host {
 #mc_embed_signup div {
   text-align: center;
 }
+
+#episodes-user-ratings {
+  margin-left: 20px;
+}
+
+#episodes-user-ratings td {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#episodes-user-ratings td:first-child {
+  padding-right: 8px;
+}
+
+#episodes-user-ratings td:nth-child(2) {
+  padding-right: 8px;
+  min-width: 42px;
+}
+
+#episodes-user-ratings td:nth-child(3) {
+  padding-right: 20px;
+}
+
+#episodes-user-ratings td > div > div {
+  display: table;
+  vertical-align: middle;
+}
+
+#episodes-user-ratings .pd_rating_poll {
+  /*margin-top: 8px;*/
+  margin-bottom: -8px;
+}
+
+hr {
+  border: 1px solid black;
+  margin-top: 30px;
+}
+
+#episodes-user-ratings .rating-msg {
+  font-family: 'Nunito', sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+}
