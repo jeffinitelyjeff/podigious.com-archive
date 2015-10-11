@@ -155,7 +155,16 @@ $(document).ready(function() {
     definitelynotdavisdidgorr: 'rdd/301/bananas',
     jeritakatoneedsagirlwhatf: 'rdd/301/girl',
     calumonheyyouknowwhatyour: 'rdd/301/swallow',
-    takatoitsyouagainrikacant: 'rdd/301/you'
+    takatoitsyouagainrikacant: 'rdd/301/you',
+
+    ep5calumonohnotheresthree: 'rdd/302/5_earrings',
+    ep6dokugumonperfectiwasju: 'rdd/302/6_dinner',
+    ep6renamonithinkyouneedac: 'rdd/302/6_cold_shower',
+    ep7takatosmombutsincehesn: 'rdd/302/7_ice_cream',
+    ep7takatosmomohwewerethes: 'rdd/302/7_dinosaurs',
+    ep7guilmonyouknowwhatcalu: 'rdd/302/7_sausages',
+    ep8policeofficerisayboyar: 'rdd/302/8_osculatory',
+    ep9randomdudebuthoneyitsj: 'rdd/302/9_toupee'
   }
 
   var add_image = function(i, elem) {

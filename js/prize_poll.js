@@ -8,33 +8,33 @@ if (!String.prototype.startsWith) {
 $(document).ready(function() {
   var image_table = {
     // poll prizes
-    adventureengdvds: 'prize_s1_boxset',
-    '02engdvds': 'prize_s2_boxset',
-    tamersengdvds: 'prize_s3_boxset',
-    frontierengdvds: 'prize_s4_boxset',
-    datasquadengdvds: 'prize_s5_boxset',
-    cybersleuthps4: 'prize_cyber_sleuth',
-    cybersleuthvita: 'prize_cyber_sleuth',
-    dukemondarts: 'prize_dukemon_darts',
-    beelzebumondarts: 'prize_beelzebumon',
-    chaosdukemonfiguarts: 'prize_chaosdukemon',
-    wargreymondarts: 'prize_wargreymon',
-    metalgarurumonfiguarts: 'prize_metalgarurumon',
-    omegamondarts: 'prize_omegamon',
-    omegamonowgfiguarts: 'prize_omegamon_owg',
-    imperialdramondarts: 'prize_imperialdramon',
-    imperialdramonpm: 'prize_imperialdramon_pm',
-    alphamonfiguarts: 'prize_alphamon',
-    taichiagumongem: 'prize_taichi_agumon',
-    yamatogabumongem: 'prize_yamato_gabumon',
-    takerupatamongem: 'prize_takeru_patamon',
-    hikaritailmongem: 'prize_hikari_tailmon',
-    kenwormmongem: 'prize_ken_wormmon',
-    takeruangemongem: 'prize_takeru_angemon',
-    hikariangewomongem: 'prize_hikari_angewomon',
-    digivicewatch: 'prize_digivice_watch',
-    tricompleteseldigivice: 'prize_digivice_tri_animation',
-    digivicever15vpet: 'prize_digivice_15'
+    adventureengdvds: 'prize/s1_boxset',
+    '02engdvds': 'prize/s2_boxset',
+    tamersengdvds: 'prize/s3_boxset',
+    frontierengdvds: 'prize/s4_boxset',
+    datasquadengdvds: 'prize/s5_boxset',
+    cybersleuthps4: 'prize/cyber_sleuth',
+    cybersleuthvita: 'prize/cyber_sleuth',
+    dukemondarts: 'prize/dukemon_darts',
+    beelzebumondarts: 'prize/beelzebumon',
+    chaosdukemonfiguarts: 'prize/chaosdukemon',
+    wargreymondarts: 'prize/wargreymon',
+    metalgarurumonfiguarts: 'prize/metalgarurumon',
+    omegamondarts: 'prize/omegamon',
+    omegamonowgfiguarts: 'prize/omegamon_owg',
+    imperialdramondarts: 'prize/imperialdramon',
+    imperialdramonpm: 'prize/imperialdramon_pm',
+    alphamonfiguarts: 'prize/alphamon',
+    taichiagumongem: 'prize/taichi_agumon',
+    yamatogabumongem: 'prize/yamato_gabumon',
+    takerupatamongem: 'prize/takeru_patamon',
+    hikaritailmongem: 'prize/hikari_tailmon',
+    kenwormmongem: 'prize/ken_wormmon',
+    takeruangemongem: 'prize/takeru_angemon',
+    hikariangewomongem: 'prize/hikari_angewomon',
+    digivicewatch: 'prize/digivice_watch',
+    tricompleteseldigivice: 'prize/digivice_tri_animation',
+    digivicever15vpet: 'prize/digivice_15'
   }
 
   var imgs = [];
@@ -48,7 +48,7 @@ $(document).ready(function() {
 
     answer_name = image_table[answer_key];
     if (answer_name) {
-      var extension = answer_name.startsWith('prize_') ? '.jpg' : '.png';
+      var extension = answer_name.startsWith('prize/') ? '.jpg' : '.png';
       var answer_file = '/img/' + answer_name + '_thumb' + extension;
       // $(elem).text('');
       var img = $('<img class="answer_img" src="' + answer_file + '"/>').hide();
