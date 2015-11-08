@@ -157,6 +157,7 @@ $(document).ready(function() {
     calumonheyyouknowwhatyour: 'rdd/301/swallow',
     takatoitsyouagainrikacant: 'rdd/301/you',
 
+    // ep 302
     ep5calumonohnotheresthree: 'rdd/302/5_earrings',
     ep6dokugumonperfectiwasju: 'rdd/302/6_dinner',
     ep6renamonithinkyouneedac: 'rdd/302/6_cold_shower',
@@ -164,7 +165,13 @@ $(document).ready(function() {
     ep7takatosmomohwewerethes: 'rdd/302/7_dinosaurs',
     ep7guilmonyouknowwhatcalu: 'rdd/302/7_sausages',
     ep8policeofficerisayboyar: 'rdd/302/8_osculatory',
-    ep9randomdudebuthoneyitsj: 'rdd/302/9_toupee'
+    ep9randomdudebuthoneyitsj: 'rdd/302/9_toupee',
+
+    // ep 303
+    ep13rikaidontevenfeellike: 'rdd/303/1_weird',
+    ep13tallytallymaybeitsagl: 'rdd/303/2_engineers',
+    ep13calumoncalumonzoomzoo: 'rdd/303/3_underwear',
+    ep13rileyithinkthatleftov: 'rdd/303/4_lunch'
   }
 
   var add_image = function(i, elem) {
