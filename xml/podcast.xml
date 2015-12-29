@@ -6,7 +6,7 @@
 
   <atom:link href="http://podigious.com/xml/podcast.xml" rel="self" type="application/rss+xml"/>
 
-  <title>Podigious! A Digimon Podcast!</title>
+  <title>Podigious! A Digimon Anime Podcast!</title>
   <link>http://podigious.com</link>
   <copyright>2015 Jeff Ruberg, Ashley McDonnell, Ash Sofman, and Andrew Sofman</copyright>
   <language>en</language>
@@ -16,6 +16,12 @@
   <itunes:keywords>digimon,anime</itunes:keywords>
   <itunes:image href="http://podigious.com/img/artwork_calumon.jpg" />
   <itunes:category text="TV &amp; Film" />
+  <itunes:category text="Arts">
+    <itunes:category text="Visual Arts" />
+  </itunes:category>
+  <itunes:category text="Games &amp; Hobbies">
+    <itunes:category text="Hobbies" />
+  </itunes:category>
 
   <itunes:summary>A critically nostalgic, analytical podcast tour through the Digimon multiverse.</itunes:summary>
   <description>A critically nostalgic, analytical podcast tour through the Digimon multiverse.</description>
