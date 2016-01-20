@@ -662,11 +662,13 @@ img {
 }
 
 .link-host {
-  visibility: hidden;
+  display: none;
+  /*visibility: hidden;*/
 }
 
 li:hover .link-host {
-  visibility: visible;
+  display: inline;
+  /*visibility: visible;*/
 }
 
 .link-host a:hover {
