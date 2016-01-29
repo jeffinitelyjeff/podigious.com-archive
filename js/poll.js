@@ -172,6 +172,14 @@ $(document).ready(function() {
     ep13tallytallymaybeitsagl: 'rdd/303/2_engineers',
     ep13calumoncalumonzoomzoo: 'rdd/303/3_underwear',
     ep13rileyithinkthatleftov: 'rdd/303/4_lunch'
+
+    // ep 304
+    ep14growlmontamerrrritsno: 'rdd/304/6_serious',
+    ep15officermanicantbeliev: 'rdd/304/2_vending_machine',
+    ep16takatosighofreliefmsa: 'rdd/304/1_breathing',
+    ep16henrythatfightwasshoc: 'rdd/304/3_shocking',
+    ep16renamonthisstuffpacks: 'rdd/304/4_punch',
+    ep16jeriareyousurethiswas: 'rdd/304/5_good_idea'
   }
 
   var add_image = function(i, elem) {
