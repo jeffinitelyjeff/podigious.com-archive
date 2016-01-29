@@ -293,7 +293,7 @@
 
       ]]></content:encoded>
 
-    <enclosure url="http://audio.podigious.com/podigious_304.mp3" length="57062367" type="audio/x-m4a" />
+    <enclosure url="http://audio.podigious.com/podigious_304.mp3" length="57062367" type="audio/mpeg" />
 
     
     <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
