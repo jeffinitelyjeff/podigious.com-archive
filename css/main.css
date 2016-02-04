@@ -869,13 +869,17 @@ li:hover .link-host {
 }
 
 #episodes-user-ratings td > div > div {
-  display: table;
+  /*display: table;*/
   vertical-align: middle;
 }
 
 #episodes-user-ratings .pd_rating_poll {
   /*margin-top: 8px;*/
   margin-bottom: -8px;
+}
+
+.pd_rating_poll div:nth-child(3), .pd_arc_rating_poll div:nth-child(5) {
+  display: none !important;
 }
 
 hr {
@@ -894,3 +898,4 @@ hr {
   top: -13px;
   margin-left: 20px;
 }
+
