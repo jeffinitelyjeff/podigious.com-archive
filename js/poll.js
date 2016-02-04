@@ -171,7 +171,7 @@ $(document).ready(function() {
     ep13rikaidontevenfeellike: 'rdd/303/1_weird',
     ep13tallytallymaybeitsagl: 'rdd/303/2_engineers',
     ep13calumoncalumonzoomzoo: 'rdd/303/3_underwear',
-    ep13rileyithinkthatleftov: 'rdd/303/4_lunch'
+    ep13rileyithinkthatleftov: 'rdd/303/4_lunch',
 
     // ep 304
     ep14growlmontamerrrritsno: 'rdd/304/6_serious',
