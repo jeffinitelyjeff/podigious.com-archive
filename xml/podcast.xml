@@ -52,7 +52,7 @@
     <link>http://podigious.com/304.5/</link>
 
     
-      <guid isPermaLink="false">http://audio.podigious.com/podigious_304.5.m4a</guid>
+      <guid isPermaLink="false">304.5</guid>
     
 
     <itunes:subtitle>Feedback: Devas Pt. 1</itunes:subtitle>
@@ -71,6 +71,8 @@
   <img src="http://podigious.com/img/ep_304.5/banner_ext.jpg" />
 
 
+
+  <p>More ways to listen: <a href='http://podigious.com/304.5/'>Web</a> • <a href='https://www.youtube.com/watch?v=qK48LoN5DW0'>YouTube</a> • <a href='https://soundcloud.com/podigious/3045-enter-the-feedback-digimon-tamers-devas-pt-1'>SoundCloud</a></p>
 
 
 <p>Feedback for the beginning of the Tokyo Devas arc! Voicemails about feeding Digimon, speculation what Digimon/crests we would have, and much more!</p>
@@ -214,7 +216,7 @@
 
       ]]></content:encoded>
 
-    <enclosure url="http://audio.podigious.com/podigious_304.5.m4a" length="36739663" type="audio/x-m4a" />
+    <enclosure url="http://audio.podigious.com/podigious_304.5.mp3" length="36739663" type="audio/mpeg" />
 
     
     <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
