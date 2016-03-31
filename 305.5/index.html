@@ -272,10 +272,14 @@ $(document).ready(function() {
     <div class="date-line">
       <a class="download" download href="http://audio.podigious.com/podigious_305.5.mp3" title="Podigious! 305.5. I'm Blue Feedback (Da Ba Dee Da Ba Die)"><i class="shake icon-download-cloud"></i> Download (26 MB)</a> •
       
+        <a id="youtube-episode" href="https://www.youtube.com/watch?v=T9frgKb0Noo"><i class="shake icon-youtube-play"></i> YouTube</a> •
+      
       
         <a id="soundcloud-episode" href="https://soundcloud.com/podigious/3055-im-blue-feedback-da-ba-dee-da-ba-die-tamers-pt-2-feedback"><i class="shake icon-soundcloud"></i> SoundCloud</a> •
       
       
+        
+          <a class="discourse_link" href="http://podigious.com/305.5/#discourse_comments"><i class="shake icon-comment"></i>Comments</a> •
         
       
       <span class="date">Mar 31, 2016</span>
@@ -494,6 +498,19 @@ $(document).ready(function() {
 
     
 
+    
+    <div id='discourse-comments'></div>
+
+    <script type="text/javascript">
+    DiscourseEmbed = { discourseUrl: 'http://forum.podigious.com/',
+                       topicId: 120 };
+
+    (function() {
+      var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+      d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+    })();
+    </script>
     
   </div>
 </div>
