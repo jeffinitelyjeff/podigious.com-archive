@@ -229,47 +229,9 @@
   <div class="weblogPostBody">
 
     
-      <audio id="podlove-webplayer">
-  <source src="http://audio.podigious.com/podigious_306.mp3" type="audio/mpeg" />
-</audio>
-
-<script>
-$('#podlove-webplayer').podlovewebplayer({
-  
-  poster: "http://podigious.com/img/ep_306/artwork_transparent.png",
-  
-  subtitle: "Devas Pt. 3",
-  permalink: 'http://audio.podigious.com/podigious_306.mp3',
-  chapters: [{"start":"0:00:00","title":"Intro"},{"start":"0:05:49","title":"General Discussion"},{"start":"0:29:57","title":"FoxKids Ad Break 1"},{"start":"0:32:10","title":"Jeri Character Study"},{"start":"0:47:38","title":"Family Matters"},{"start":"1:11:33","title":"FoxKids Ad Break 2"},{"start":"1:17:45","title":"Stray Bits"},{"start":"1:28:58","title":"Unanswered Questions"},{"start":"1:37:42","title":"Fox Kids Ad Break 3"},{"start":"1:39:04","title":"RDD"},{"start":"1:45:29","title":"Arc Wrap-Up"},{"start":"1:52:01","title":"Recommendation Articulation"},{"start":"2:05:24","title":"Outro"}],
-  downloads: [],
-  duration: '2:23:03',
-  alwaysShowHours: false,
-  startVolume: 0.8,
-  width: 'auto',
-  summaryVisible: false,
-  timecontrolsVisible: false,
-  sharebuttonsVisible: false,
-  chaptersVisible: true,
-  hidesharebutton: true,
-  timecontrolsVisible: true,
-  preload: true
-});
-$(document).ready(function() {
-  $('a').not('.ts').attr('target', '_blank');
-  $('.show-attributions').click(function() {
-    $('.img-box .name').hide();
-    $('.img-box .source').show();
-    $('.show-attributions').hide();
-    $('.hide-attributions').show();
-  });
-  $('.hide-attributions').click(function() {
-    $('.img-box .name').show();
-    $('.img-box .source').hide();
-    $('.show-attributions').show();
-    $('.hide-attributions').hide();
-  });
-});
-</script>
+      <div id="soundcloud_embed">
+        <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/260568799&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      </div>
     
     <div class="date-line">
       <a class="download" download href="http://audio.podigious.com/podigious_306.mp3" title="Podigious! 306. Family Tie-Breaker"><i class="shake icon-download-cloud"></i> Download (72.7 MB)</a> •
@@ -280,6 +242,8 @@ $(document).ready(function() {
         <a id="soundcloud-episode" href="https://soundcloud.com/podigious/digimon-tamers-devas-pt-3-306-family-tie-breaker"><i class="shake icon-soundcloud"></i> SoundCloud</a> •
       
       
+        
+          <a class="discourse_link" href="http://podigious.com/306/#discourse_comments"><i class="shake icon-comment"></i>Comments</a> •
         
       
       <span class="date">Apr 23, 2016</span>
@@ -397,6 +361,37 @@ $(document).ready(function() {
 
     
 
+    
+    <h3>Chapters</h3>
+    <ul id="chapters">
+  
+    <li>0:00:00: Intro</li>
+  
+    <li>0:05:49: General Discussion</li>
+  
+    <li>0:29:57: FoxKids Ad Break 1</li>
+  
+    <li>0:32:10: Jeri Character Study</li>
+  
+    <li>0:47:38: Family Matters</li>
+  
+    <li>1:11:33: FoxKids Ad Break 2</li>
+  
+    <li>1:17:45: Stray Bits</li>
+  
+    <li>1:28:58: Unanswered Questions</li>
+  
+    <li>1:37:42: Fox Kids Ad Break 3</li>
+  
+    <li>1:39:04: RDD</li>
+  
+    <li>1:45:29: Arc Wrap-Up</li>
+  
+    <li>1:52:01: Recommendation Articulation</li>
+  
+    <li>2:05:24: Outro</li>
+  
+</ul>
     
 
     
@@ -930,7 +925,7 @@ $(document).ready(function() {
     <li>
       
       Andrew:
-      <a href="https://en.wikipedia.org/wiki/Full_Moon_o_Sagashite#Anime"><em>Full Moon o Shigashite</em> (Anime)</a>
+      <a href="https://en.wikipedia.org/wiki/Full_Moon_o_Sagashite#Anime"><em>Full Moon o Sagashite</em> (Anime)</a>
       
       
     </li>
@@ -988,6 +983,19 @@ $(document).ready(function() {
 
     
 
+    
+    <div id='discourse-comments'></div>
+
+    <script type="text/javascript">
+    DiscourseEmbed = { discourseUrl: 'http://forum.podigious.com/',
+                       topicId: 130 };
+
+    (function() {
+      var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+      d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+    })();
+    </script>
     
   </div>
 </div>
