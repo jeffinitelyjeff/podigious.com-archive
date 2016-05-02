@@ -179,7 +179,16 @@ $(document).ready(function() {
     ep16takatosighofreliefmsa: 'rdd/304/1_breathing',
     ep16henrythatfightwasshoc: 'rdd/304/3_shocking',
     ep16renamonthisstuffpacks: 'rdd/304/4_punch',
-    ep16jeriareyousurethiswas: 'rdd/304/5_good_idea'
+    ep16jeriareyousurethiswas: 'rdd/304/5_good_idea',
+
+    // ep 306
+    ep21takatoareyousurehesyo: 'rdd/306/21_destiny',
+    ep21jeriwhatkindofdigimon: 'rdd/306/21_cramped',
+    ep21leomonishouldgobefore: 'rdd/306/21_tears',
+    ep22terriermonitsgoingtob: 'rdd/306/22_big',
+    ep22soldier1sirwehaventbe: 'rdd/306/22_maneuvers',
+    ep23vikaralamonnowyourego: 'rdd/306/23_cash',
+    ep23taomonitwilltakemoret: 'rdd/306/23_brush'
   }
 
   var add_image = function(i, elem) {
