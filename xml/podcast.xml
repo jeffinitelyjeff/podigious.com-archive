@@ -88,23 +88,25 @@
   <h3>Sections</h3>
   <ul id="chapters">
   
-    <li>: </li>
+    <li>0:00:00: Intro</li>
   
-    <li>: </li>
+    <li>0:01:36: Digimon News</li>
   
-    <li>: </li>
+    <li>0:04:15: iTunes Review</li>
   
-    <li>: </li>
+    <li>0:05:48: Rejected Titles</li>
   
-    <li>: </li>
+    <li>0:06:25: RDD Poll</li>
   
-    <li>: </li>
+    <li>0:08:51: Fantasy Draft</li>
   
-    <li>: </li>
+    <li>0:11:48: Voicemails</li>
   
-    <li>: </li>
+    <li>0:20:14: General Comments</li>
   
-    <li>: </li>
+    <li>0:26:23: Ask Podigious</li>
+  
+    <li>0:40:16: Outro</li>
   
 </ul>
 
@@ -239,23 +241,25 @@
     
     <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
       
-      <psc:chapter start="" title="" />
+      <psc:chapter start="0:00:00" title="Intro" />
       
-      <psc:chapter start="" title="" />
+      <psc:chapter start="0:01:36" title="Digimon News" />
       
-      <psc:chapter start="" title="" />
+      <psc:chapter start="0:04:15" title="iTunes Review" />
       
-      <psc:chapter start="" title="" />
+      <psc:chapter start="0:05:48" title="Rejected Titles" />
       
-      <psc:chapter start="" title="" />
+      <psc:chapter start="0:06:25" title="RDD Poll" />
       
-      <psc:chapter start="" title="" />
+      <psc:chapter start="0:08:51" title="Fantasy Draft" />
       
-      <psc:chapter start="" title="" />
+      <psc:chapter start="0:11:48" title="Voicemails" />
       
-      <psc:chapter start="" title="" />
+      <psc:chapter start="0:20:14" title="General Comments" />
       
-      <psc:chapter start="" title="" />
+      <psc:chapter start="0:26:23" title="Ask Podigious" />
+      
+      <psc:chapter start="0:40:16" title="Outro" />
       
     </psc:chapters>
     
