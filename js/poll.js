@@ -188,7 +188,17 @@ $(document).ready(function() {
     ep22terriermonitsgoingtob: 'rdd/306/22_big',
     ep22soldier1sirwehaventbe: 'rdd/306/22_maneuvers',
     ep23vikaralamonnowyourego: 'rdd/306/23_cash',
-    ep23taomonitwilltakemoret: 'rdd/306/23_brush'
+    ep23taomonitwilltakemoret: 'rdd/306/23_brush',
+
+    // ep 307
+    ep25takatocouldntsleephen: 'rdd/307/25_wired',
+    ep26jijimonohmystarswoman: 'rdd/307/26_singing',
+    ep26renamonlookathowbarre: 'rdd/307/26_barren',
+    ep26rikagohomeyourejustas: 'rdd/307/26_hair',
+    ep26kazuwegottaaskjijimon: 'rdd/307/26_question',
+    ep27guilmonhurryupbecause: 'rdd/307/27_bike',
+    ep28guilmonhowcometerrier: 'rdd/307/28_mime',
+    ep29terriermonwerenotinka: 'rdd/307/29_kansai'
   }
 
   var add_image = function(i, elem) {
