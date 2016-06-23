@@ -198,7 +198,17 @@ $(document).ready(function() {
     ep26kazuwegottaaskjijimon: 'rdd/307/26_question',
     ep27guilmonhurryupbecause: 'rdd/307/27_bike',
     ep28guilmonhowcometerrier: 'rdd/307/28_mime',
-    ep29terriermonwerenotinka: 'rdd/307/29_kansai'
+    ep29terriermonwerenotinka: 'rdd/307/29_kansai',
+
+    // ep 308
+    ep30terriermonnowthatcalu: 'rdd/308/30_flagging',
+    ep30jeriheydidyoureallyme: 'rdd/308/30_shut_up',
+    ep31jerithanksialwaysdoge: 'rdd/308/31_tips',
+    ep31terriermonmomentaihen: 'rdd/308/31_momentai',
+    ep31leomonevenifjerisused: 'rdd/308/31_customer',
+    ep31gekomoncomeandgetyour: 'rdd/308/31_shakey',
+    ep32henryheywhatsthattaka: 'rdd/308/32_not_funny',
+    ep32takatookayhowdoyousay: 'rdd/308/32_reassuring'
   }
 
   var add_image = function(i, elem) {
