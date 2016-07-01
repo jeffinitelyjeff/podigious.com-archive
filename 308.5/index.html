@@ -226,47 +226,9 @@
   <div class="weblogPostBody">
 
     
-      <audio id="podlove-webplayer">
-  <source src="http://audio.podigious.com/podigious_308.5.mp3" type="audio/mpeg" />
-</audio>
-
-<script>
-$('#podlove-webplayer').podlovewebplayer({
-  
-  poster: "http://podigious.com/img/ep_308.5/artwork_transparent.png",
-  
-  subtitle: "Digital World Pt. 2 (Feedback)",
-  permalink: 'http://audio.podigious.com/podigious_308.5.mp3',
-  chapters: [{"start":"0:00:00","title":"Intro"},{"start":"0:01:49","title":"Digimon News"},{"start":"0:14:26","title":"Tri Followup"},{"start":"0:26:19","title":"iTunes Reviews"},{"start":"0:31:53","title":"Rejected Titles"},{"start":"0:32:52","title":"RDD Results"},{"start":"0:34:26","title":"Podigious Fantasy Draft"},{"start":"0:38:43","title":"Comments"},{"start":"0:46:33","title":"308.8 Final Chapter Prologue"},{"start":"0:57:55","title":"308.9 Final Chapter Prologue Epilogue"},{"start":"1:05:46","title":"Outro"}],
-  downloads: [],
-  duration: '1:15:23',
-  alwaysShowHours: false,
-  startVolume: 0.8,
-  width: 'auto',
-  summaryVisible: false,
-  timecontrolsVisible: false,
-  sharebuttonsVisible: false,
-  chaptersVisible: true,
-  hidesharebutton: true,
-  timecontrolsVisible: true,
-  preload: true
-});
-$(document).ready(function() {
-  $('a').not('.ts').attr('target', '_blank');
-  $('.show-attributions').click(function() {
-    $('.img-box .name').hide();
-    $('.img-box .source').show();
-    $('.show-attributions').hide();
-    $('.hide-attributions').show();
-  });
-  $('.hide-attributions').click(function() {
-    $('.img-box .name').show();
-    $('.img-box .source').hide();
-    $('.show-attributions').show();
-    $('.hide-attributions').hide();
-  });
-});
-</script>
+      <div id="soundcloud_embed">
+        <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/271679876&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      </div>
     
     <div class="date-line">
       <a class="download" download href="http://audio.podigious.com/podigious_308.5.mp3" title="Podigious! 308.5. My Feedback Brings All the Mon to the Pond"><i class="shake icon-download-cloud"></i> Download (36.5 MB)</a> •
@@ -298,6 +260,33 @@ $(document).ready(function() {
 
     
 
+    
+    <h3>Chapters</h3>
+    <ul id="chapters">
+  
+    <li>0:00:00: Intro</li>
+  
+    <li>0:01:49: Digimon News</li>
+  
+    <li>0:14:26: Tri Followup</li>
+  
+    <li>0:26:19: iTunes Reviews</li>
+  
+    <li>0:31:53: Rejected Titles</li>
+  
+    <li>0:32:52: RDD Results</li>
+  
+    <li>0:34:26: Podigious Fantasy Draft</li>
+  
+    <li>0:38:43: Comments</li>
+  
+    <li>0:46:33: 308.8 Final Chapter Prologue</li>
+  
+    <li>0:57:55: 308.9 Final Chapter Prologue Epilogue</li>
+  
+    <li>1:05:46: Outro</li>
+  
+</ul>
     
 
     
