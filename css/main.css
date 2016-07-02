@@ -878,7 +878,7 @@ li:hover .link-host {
   margin-bottom: -8px;
 }
 
-.pd_rating_poll div:nth-child(3), .pd_arc_rating_poll div:nth-child(5) {
+.pd_rating_poll > div:nth-child(3), .pd_arc_rating_poll > div:nth-child(3) {
   display: none !important;
 }
 
