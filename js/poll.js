@@ -208,7 +208,16 @@ $(document).ready(function() {
     ep31leomonevenifjerisused: 'rdd/308/31_customer',
     ep31gekomoncomeandgetyour: 'rdd/308/31_shakey',
     ep32henryheywhatsthattaka: 'rdd/308/32_not_funny',
-    ep32takatookayhowdoyousay: 'rdd/308/32_reassuring'
+    ep32takatookayhowdoyousay: 'rdd/308/32_reassuring',
+
+    ep37kazuihaventevenstarte: 'rdd/310/37_sad_girls',
+    ep37kazusheflewawaywhatdo: 'rdd/310/37_flew_away',
+    ep37guilmonatleastwellbed: 'rdd/310/37_comfort',
+    ep37rikaaheartohevenasmil: 'rdd/310/37_smiley_face',
+    ep37guardromonareyousuret: 'rdd/310/37_safe',
+    ep38kentakazuwhatsthatbig: 'rdd/310/38_blue_cloud',
+    ep38lopmonitsabigmysteryi: 'rdd/310/38_mystery',
+    ep38janyuthisstupidpieceo: 'rdd/310/38_old_man'
   }
 
   var add_image = function(i, elem) {
