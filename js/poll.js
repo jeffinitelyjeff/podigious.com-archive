@@ -210,6 +210,7 @@ $(document).ready(function() {
     ep32henryheywhatsthattaka: 'rdd/308/32_not_funny',
     ep32takatookayhowdoyousay: 'rdd/308/32_reassuring',
 
+    // ep 310
     ep37kazuihaventevenstarte: 'rdd/310/37_sad_girls',
     ep37kazusheflewawaywhatdo: 'rdd/310/37_flew_away',
     ep37guilmonatleastwellbed: 'rdd/310/37_comfort',
@@ -217,7 +218,15 @@ $(document).ready(function() {
     ep37guardromonareyousuret: 'rdd/310/37_safe',
     ep38kentakazuwhatsthatbig: 'rdd/310/38_blue_cloud',
     ep38lopmonitsabigmysteryi: 'rdd/310/38_mystery',
-    ep38janyuthisstupidpieceo: 'rdd/310/38_old_man'
+    ep38janyuthisstupidpieceo: 'rdd/310/38_old_man',
+
+    // ep 311
+    ep42henryyouwererightsens: 'rdd/311/42_clouds',
+    ep42renamonifitfrightensa: 'rdd/311/42_lightly',
+    ep43takatoguilmonwhatarey: 'rdd/311/43_staring_contest',
+    ep43takatoicantbelievethi: 'rdd/311/43_good_thing',
+    ep43takatoheywaitaminutei: 'rdd/311/43_bagels',
+    ep43kidsheyitsimpmonbeelz: 'rdd/311/43_blast_mode'
   }
 
   var add_image = function(i, elem) {
