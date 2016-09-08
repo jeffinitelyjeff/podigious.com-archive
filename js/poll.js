@@ -226,7 +226,11 @@ $(document).ready(function() {
     ep43takatoguilmonwhatarey: 'rdd/311/43_staring_contest',
     ep43takatoicantbelievethi: 'rdd/311/43_good_thing',
     ep43takatoheywaitaminutei: 'rdd/311/43_bagels',
-    ep43kidsheyitsimpmonbeelz: 'rdd/311/43_blast_mode'
+    ep43kidsheyitsimpmonbeelz: 'rdd/311/43_blast_mode',
+
+    ep47terriermonmrmizunonot: 'rdd/312/47_momentai',
+    ep48shibumiiveneverseenam: 'rdd/312/48_machinery',
+    ep48beelzemonwhatididisbe: 'rdd/312/48_talking_eyeball'
   }
 
   var add_image = function(i, elem) {
