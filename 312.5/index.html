@@ -239,53 +239,17 @@
   <div class="weblogPostBody">
 
     
-      <audio id="podlove-webplayer">
-  <source src="http://audio.podigious.com/podigious_312.5.mp3" type="audio/mpeg" />
-</audio>
-
-<script>
-$('#podlove-webplayer').podlovewebplayer({
-  
-  poster: "http://podigious.com/img/ep_312.5/artwork_transparent.png",
-  
-  subtitle: "D-Reaper Pt. 2 (Feedback)",
-  permalink: 'http://audio.podigious.com/podigious_312.5.mp3',
-  
-  downloads: [],
-  duration: '1:12:17',
-  alwaysShowHours: false,
-  startVolume: 0.8,
-  width: 'auto',
-  summaryVisible: false,
-  timecontrolsVisible: false,
-  sharebuttonsVisible: false,
-  chaptersVisible: true,
-  hidesharebutton: true,
-  timecontrolsVisible: true,
-  preload: true
-});
-$(document).ready(function() {
-  $('a').not('.ts').attr('target', '_blank');
-  $('.show-attributions').click(function() {
-    $('.img-box .name').hide();
-    $('.img-box .source').show();
-    $('.show-attributions').hide();
-    $('.hide-attributions').show();
-  });
-  $('.hide-attributions').click(function() {
-    $('.img-box .name').show();
-    $('.img-box .source').hide();
-    $('.show-attributions').show();
-    $('.hide-attributions').hide();
-  });
-});
-</script>
+      <div id="soundcloud_embed">
+        <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284274016&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      </div>
     
     <div class="date-line">
       <a class="download" download href="http://audio.podigious.com/podigious_312.5.mp3" title="Podigious! 312.5. Feedback, Feedback, Feedback, Feedback"><i class="shake icon-download-cloud"></i> Download (35 MB)</a> •
       
         <a id="youtube-episode" href="https://www.youtube.com/watch?v=GIdNgxLhU6Y"><i class="shake icon-youtube-play"></i> YouTube</a> •
       
+      
+        <a id="soundcloud-episode" href="https://soundcloud.com/podigious/podigious-3125"><i class="shake icon-soundcloud"></i> SoundCloud</a> •
       
       
         
