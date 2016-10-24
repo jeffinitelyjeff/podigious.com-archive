@@ -228,9 +228,17 @@ $(document).ready(function() {
     ep43takatoheywaitaminutei: 'rdd/311/43_bagels',
     ep43kidsheyitsimpmonbeelz: 'rdd/311/43_blast_mode',
 
+    // ep 312
     ep47terriermonmrmizunonot: 'rdd/312/47_momentai',
     ep48shibumiiveneverseenam: 'rdd/312/48_machinery',
-    ep48beelzemonwhatididisbe: 'rdd/312/48_talking_eyeball'
+    ep48beelzemonwhatididisbe: 'rdd/312/48_talking_eyeball',
+
+    // ep 313
+    kaisgrandpathatsonestrang: 'rdd/313/1_dog',
+    airportannouncerthelightz: 'rdd/313/2_loading',
+    henrythoseruinswereamazin: 'rdd/313/3_rocks',
+    henryifyougetboredillcome: 'rdd/313/4_boring',
+    mephistomonyoullneverdefe: 'rdd/313/5_like_that'
   }
 
   var add_image = function(i, elem) {
