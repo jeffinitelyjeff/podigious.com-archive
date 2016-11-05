@@ -238,7 +238,13 @@ $(document).ready(function() {
     airportannouncerthelightz: 'rdd/313/2_loading',
     henrythoseruinswereamazin: 'rdd/313/3_rocks',
     henryifyougetboredillcome: 'rdd/313/4_boring',
-    mephistomonyoullneverdefe: 'rdd/313/5_like_that'
+    mephistomonyoullneverdefe: 'rdd/313/5_like_that',
+
+    // ep 314
+    dude1areyoujokingdude2ido: 'rdd/314/1_joking',
+    henryheresyourstoplopjeff: 'rdd/314/2_lop',
+    suzieiamprincessprettypan: 'rdd/314/3_pretty_pants',
+    dudethiscouldjeopardizeth: 'rdd/314/4_transfer'
   }
 
   var add_image = function(i, elem) {
