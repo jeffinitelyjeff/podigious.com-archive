@@ -255,51 +255,17 @@
   <div class="weblogPostBody">
 
     
-      <audio id="podlove-webplayer">
-  <source src="http://audio.podigious.com/podigious_T3.1.mp3" type="audio/mpeg" />
-</audio>
-
-<script>
-$('#podlove-webplayer').podlovewebplayer({
-  
-  poster: "http://podigious.com/img/ep_T3.1/artwork_transparent.png",
-  
-  subtitle: "Tri Ch 3 “Confession”",
-  permalink: 'http://audio.podigious.com/podigious_T3.1.mp3',
-  chapters: [{"start":"0:00:00","title":"Intro"},{"start":"0:01:16","title":"Jacob"},{"start":"0:29:04","title":"Miranda"},{"start":"0:55:19","title":"Miles"},{"start":"1:15:54","title":"Rayana"},{"start":"1:41:49","title":"Callum"},{"start":"2:04:23","title":"Outro"}],
-  downloads: [],
-  duration: '2:08:24',
-  alwaysShowHours: false,
-  startVolume: 0.8,
-  width: 'auto',
-  summaryVisible: false,
-  timecontrolsVisible: false,
-  sharebuttonsVisible: false,
-  chaptersVisible: true,
-  hidesharebutton: true,
-  timecontrolsVisible: true,
-  preload: true
-});
-$(document).ready(function() {
-  $('a').not('.ts').attr('target', '_blank');
-  $('.show-attributions').click(function() {
-    $('.img-box .name').hide();
-    $('.img-box .source').show();
-    $('.show-attributions').hide();
-    $('.hide-attributions').show();
-  });
-  $('.hide-attributions').click(function() {
-    $('.img-box .name').show();
-    $('.img-box .source').hide();
-    $('.show-attributions').show();
-    $('.hide-attributions').hide();
-  });
-});
-</script>
+      <div id="soundcloud_embed">
+        <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/292962603&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      </div>
     
     <div class="date-line">
       <a class="download" download href="http://audio.podigious.com/podigious_T3.1.mp3" title="Podigious! T3.1. “Confession Decompression Procession Digression”"><i class="shake icon-download-cloud"></i> Download (64.2 MB)</a> •
       
+        <a id="youtube-episode" href="https://www.youtube.com/watch?v=N_4CYLW_Zro"><i class="shake icon-youtube-play"></i> YouTube</a> •
+      
+      
+        <a id="soundcloud-episode" href="https://soundcloud.com/podigious/podigious-t31"><i class="shake icon-soundcloud"></i> SoundCloud</a> •
       
       
         <a class="comments_link" href="http://podigious.com/T3.1/#disqus_thread" data-disqus-identifier="episode_T3.1"></a> •
@@ -331,6 +297,25 @@ $(document).ready(function() {
 
     
 
+    
+    <h3>Chapters</h3>
+    <ul id="chapters">
+  
+    <li>0:00:00: Intro</li>
+  
+    <li>0:01:16: Jacob</li>
+  
+    <li>0:29:04: Miranda</li>
+  
+    <li>0:55:19: Miles</li>
+  
+    <li>1:15:54: Rayana</li>
+  
+    <li>1:41:49: Callum</li>
+  
+    <li>2:04:23: Outro</li>
+  
+</ul>
     
 
     
