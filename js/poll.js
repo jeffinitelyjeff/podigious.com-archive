@@ -152,6 +152,7 @@ $(document).ready(function() {
     rikagetingearrenamonorwel: 'rdd/301/gear',
     narratordaviswilltakatoge: 'rdd/301/grill',
     principalstudentshouldnty: 'rdd/301/box',
+    ep2principalstudentshould: 'rdd/301/box',
     definitelynotdavisdidgorr: 'rdd/301/bananas',
     jeritakatoneedsagirlwhatf: 'rdd/301/girl',
     calumonheyyouknowwhatyour: 'rdd/301/swallow',
