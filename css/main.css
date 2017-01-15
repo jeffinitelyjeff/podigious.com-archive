@@ -906,3 +906,11 @@ hr {
 #discourse-comments {
   margin-top: 30px;
 }
+
+p.music-credits-header {
+  margin-bottom: 5px;
+}
+
+.music-credits-list {
+  margin-top: 5px;
+}
