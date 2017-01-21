@@ -914,3 +914,9 @@ p.music-credits-header {
 .music-credits-list {
   margin-top: 5px;
 }
+
+.next-ep {
+  border: 1px solid white;
+  background-color: #456bb8;
+  margin-bottom: 16px;
+}
