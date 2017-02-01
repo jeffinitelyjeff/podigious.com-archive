@@ -279,22 +279,8 @@ $('#podlove-webplayer').podlovewebplayer({
   timecontrolsVisible: true,
   preload: true
 });
-$(document).ready(function() {
-  $('a').not('.ts').attr('target', '_blank');
-  $('.show-attributions').click(function() {
-    $('.img-box .name').hide();
-    $('.img-box .source').show();
-    $('.show-attributions').hide();
-    $('.hide-attributions').show();
-  });
-  $('.hide-attributions').click(function() {
-    $('.img-box .name').show();
-    $('.img-box .source').hide();
-    $('.show-attributions').show();
-    $('.hide-attributions').hide();
-  });
-});
 </script>
+
     
     <div class="date-line">
       <a class="download" download href="http://audio.podigious.com/podigious_203.m4a" title="Podigious! 203. Cosmic Horror for Kids"><i class="shake icon-download-cloud"></i> Download (23.1 MB)</a> •
@@ -313,6 +299,8 @@ $(document).ready(function() {
 <p><a href="https://twitter.com/annjakeh">Jacob Hope Chapman</a> is an assistant editor at <a href="http://www.animenewsnetwork.com/">Anime News Network</a> <a href="http://jesuotaku.tumblr.com/post/99391497892/list-of-written-reviews-ive-done-for-ann">(list of reviews)</a> and is currently writing and developing a visual novel, <a href="https://www.kickstarter.com/projects/465561141/lovely-little-thieves"><em>Lovely Little Thieves</em></a>. He&#39;s well-known in the Digimon community for his great in-depth video retrospectives of Adventure <a href="http://www.jesuotaku.com/retrospective/digimon-adventure-the-story/">(Story)</a> <a href="http://www.jesuotaku.com/retrospective/digimon-adventure-the-characters/">(Characters)</a> <a href="http://www.jesuotaku.com/retrospective/digimon-adventure-the-review/">(Review)</a>, Adventure 02 <a href="http://www.jesuotaku.com/retrospective/digimon-zero-two-the-story/">(Story)</a> <a href="http://www.jesuotaku.com/retrospective/digimon-zero-two-the-characters/">(Characters)</a> <a href="http://www.jesuotaku.com/retrospective/digimon-zero-two-the-review/">(Review)</a>, and Tamers <a href="http://www.jesuotaku.com/digimon-tamers-the-story/">(Story)</a> <a href="http://www.jesuotaku.com/retrospective/digimon-tamers-the-characters/">(Characters)</a>. Go check out his stuff!</p>
 
     </p>
+
+    
 
     
 
@@ -1153,6 +1141,10 @@ $(document).ready(function() {
     
 
     
+    <p><span class="show-attributions">(Show image attributions)</span><span class="hide-attributions" style="display: none;">(Hide image attributions)</span></p>
+    
+
+    
 
     
 
@@ -1161,10 +1153,6 @@ $(document).ready(function() {
     
     <div class="credits">
     <h3>Special Thanks</h3>
-    
-
-    
-    <p><span class="show-attributions">(Show image attributions)</span><span class="hide-attributions" style="display: none;">(Hide image attributions)</span></p>
     
 
     

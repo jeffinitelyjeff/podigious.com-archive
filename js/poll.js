@@ -245,7 +245,13 @@ $(document).ready(function() {
     dude1areyoujokingdude2ido: 'rdd/314/1_joking',
     henryheresyourstoplopjeff: 'rdd/314/2_lop',
     suzieiamprincessprettypan: 'rdd/314/3_pretty_pants',
-    dudethiscouldjeopardizeth: 'rdd/314/4_transfer'
+    dudethiscouldjeopardizeth: 'rdd/314/4_transfer',
+
+    // ep 401
+    ep4bokomonitsdeliciousflo: 'rdd/401/4_brain_food',
+    ep4jpitslikeimthebeefandh: 'rdd/401/4_beef_jerky',
+    ep5kakuamonandifallofthat: 'rdd/401/5_kangaroo',
+    ep7kojiinthatcreepycastle: 'rdd/401/7_lavender'
   }
 
   var add_image = function(i, elem) {

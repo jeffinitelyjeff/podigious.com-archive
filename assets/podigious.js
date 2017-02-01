@@ -38,4 +38,18 @@ $(document).ready(function() {
     scrollTrigger: 100,
     target: "> img"
   });
+
+  $('a').not('.ts').attr('target', '_blank');
+  $('.show-attributions').click(function() {
+    $('.img-box .name').hide();
+    $('.img-box .source').show();
+    $('.show-attributions').hide();
+    $('.hide-attributions').show();
+  });
+  $('.hide-attributions').click(function() {
+    $('.img-box .name').show();
+    $('.img-box .source').hide();
+    $('.show-attributions').show();
+    $('.hide-attributions').hide();
+  });
 });

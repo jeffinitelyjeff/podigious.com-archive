@@ -338,22 +338,8 @@ $('#podlove-webplayer').podlovewebplayer({
   timecontrolsVisible: true,
   preload: true
 });
-$(document).ready(function() {
-  $('a').not('.ts').attr('target', '_blank');
-  $('.show-attributions').click(function() {
-    $('.img-box .name').hide();
-    $('.img-box .source').show();
-    $('.show-attributions').hide();
-    $('.hide-attributions').show();
-  });
-  $('.hide-attributions').click(function() {
-    $('.img-box .name').show();
-    $('.img-box .source').hide();
-    $('.show-attributions').show();
-    $('.hide-attributions').hide();
-  });
-});
 </script>
+
     
     <div class="date-line">
       <a class="download" download href="http://audio.podigious.com/podigious_T1.0.m4a" title="Podigious! T1.0. Kick It into Tri Gear"><i class="shake icon-download-cloud"></i> Download (69.5 MB)</a> •
@@ -378,6 +364,8 @@ $(document).ready(function() {
 <p>We&#39;re also announcing our first Podigious Tri Giveaway Extravaganza, where you can win Tri prizes that we collected in Japan! There are lots of different ways you can enter the contest, and you can do several of them to increase your odds. Here&#39;s how you can enter: <a href="http://podigious.com/tri-contest1">link</a>.</p>
 
     </p>
+
+    
 
     
 
@@ -1936,6 +1924,10 @@ $(document).ready(function() {
     
 
     
+    <p><span class="show-attributions">(Show image attributions)</span><span class="hide-attributions" style="display: none;">(Hide image attributions)</span></p>
+    
+
+    
 
     
 
@@ -1946,10 +1938,6 @@ $(document).ready(function() {
     <h3>Special Thanks</h3>
     
     <p>The podcast is made possible with support from our awesome Patremon. If you want to support the show and get some cool rewards (like stickers, buttons, and early episodes), check out our <a href="https://www.patreon.com/podigious">Patreon campaign</a>.</p>
-    
-
-    
-    <p><span class="show-attributions">(Show image attributions)</span><span class="hide-attributions" style="display: none;">(Hide image attributions)</span></p>
     
 
     

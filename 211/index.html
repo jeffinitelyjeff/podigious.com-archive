@@ -288,22 +288,8 @@ $('#podlove-webplayer').podlovewebplayer({
   timecontrolsVisible: true,
   preload: true
 });
-$(document).ready(function() {
-  $('a').not('.ts').attr('target', '_blank');
-  $('.show-attributions').click(function() {
-    $('.img-box .name').hide();
-    $('.img-box .source').show();
-    $('.show-attributions').hide();
-    $('.hide-attributions').show();
-  });
-  $('.hide-attributions').click(function() {
-    $('.img-box .name').show();
-    $('.img-box .source').hide();
-    $('.show-attributions').show();
-    $('.hide-attributions').hide();
-  });
-});
 </script>
+
     
     <div class="date-line">
       <a class="download" download href="http://audio.podigious.com/podigious_211.m4a" title="Podigious! 211. Lackadaisical Breeze! Unexplained Evolutions! The Smoothest Jazz!"><i class="shake icon-download-cloud"></i> Download (48.8 MB)</a> •
@@ -324,6 +310,8 @@ $(document).ready(function() {
 <p><strong>News Alert</strong>: We recorded follow-up the day the last Digi-Egg was revealed, but it&#39;s actually already hatched! Looks like we&#39;re going to be a PV (promotional video) and airing schedule for tri on May 6. Apparently PVs typically come out a couple weeks before a series starts, so the series might start in May. <a href="http://withthewill.net/threads/14782-New-tri-Poster-and-Discussion-PV-Cast-and-Schedule-Announcement-Soon!">[More details]</a></p>
 
     </p>
+
+    
 
     
 
@@ -1285,6 +1273,10 @@ $(document).ready(function() {
     
 
     
+    <p><span class="show-attributions">(Show image attributions)</span><span class="hide-attributions" style="display: none;">(Hide image attributions)</span></p>
+    
+
+    
 
     
 
@@ -1293,10 +1285,6 @@ $(document).ready(function() {
     
     <div class="credits">
     <h3>Special Thanks</h3>
-    
-
-    
-    <p><span class="show-attributions">(Show image attributions)</span><span class="hide-attributions" style="display: none;">(Hide image attributions)</span></p>
     
 
     

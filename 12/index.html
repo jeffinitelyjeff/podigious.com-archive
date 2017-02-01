@@ -276,22 +276,8 @@ $('#podlove-webplayer').podlovewebplayer({
   timecontrolsVisible: true,
   preload: true
 });
-$(document).ready(function() {
-  $('a').not('.ts').attr('target', '_blank');
-  $('.show-attributions').click(function() {
-    $('.img-box .name').hide();
-    $('.img-box .source').show();
-    $('.show-attributions').hide();
-    $('.hide-attributions').show();
-  });
-  $('.hide-attributions').click(function() {
-    $('.img-box .name').show();
-    $('.img-box .source').hide();
-    $('.show-attributions').show();
-    $('.hide-attributions').hide();
-  });
-});
 </script>
+
     
     <div class="date-line">
       <a class="download" download href="http://audio.podigious.com/podigious_12.m4a" title="Podigious! 12. Dinosaur in their Bed"><i class="shake icon-download-cloud"></i> Download (13.6 MB)</a> •
@@ -308,6 +294,8 @@ $(document).ready(function() {
       <p>We go back to the beginning to cover the first Adventure movie (or, in the dub, the first third of Digimon: The Movie). We analyze the movie as an introduction to the Digimon anime, Tai&#39;s hair-to-body ratio, and wet-dream digivolutions.</p>
 
     </p>
+
+    
 
     
 
@@ -650,6 +638,10 @@ $(document).ready(function() {
     
 
     
+    <p><span class="show-attributions">(Show image attributions)</span><span class="hide-attributions" style="display: none;">(Hide image attributions)</span></p>
+    
+
+    
 
     
 
@@ -658,10 +650,6 @@ $(document).ready(function() {
     
     <div class="credits">
     <h3>Special Thanks</h3>
-    
-
-    
-    <p><span class="show-attributions">(Show image attributions)</span><span class="hide-attributions" style="display: none;">(Hide image attributions)</span></p>
     
 
     

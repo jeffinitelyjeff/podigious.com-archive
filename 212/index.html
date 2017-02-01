@@ -297,22 +297,8 @@ $('#podlove-webplayer').podlovewebplayer({
   timecontrolsVisible: true,
   preload: true
 });
-$(document).ready(function() {
-  $('a').not('.ts').attr('target', '_blank');
-  $('.show-attributions').click(function() {
-    $('.img-box .name').hide();
-    $('.img-box .source').show();
-    $('.show-attributions').hide();
-    $('.hide-attributions').show();
-  });
-  $('.hide-attributions').click(function() {
-    $('.img-box .name').show();
-    $('.img-box .source').hide();
-    $('.show-attributions').show();
-    $('.hide-attributions').hide();
-  });
-});
 </script>
+
     
     <div class="date-line">
       <a class="download" download href="http://audio.podigious.com/podigious_212.m4a" title="Podigious! 212. Revenge of Off-Brand Hosoda"><i class="shake icon-download-cloud"></i> Download (45.7 MB)</a> •
@@ -338,6 +324,8 @@ $(document).ready(function() {
 <p><em>Note:</em> This episode was delayed, so some of the dates we mentioned are a little off. We&#39;d still love if you send us your favorite moments from Podigious season 2 (tell us the episode number and either a timestamp or description of the moment), and we&#39;re going to be taking them until Wednesday (Apr 29) at 3 PM EST! And we&#39;ll be recording feedback about this episode Wednesday evening, so get comments in quick if you want us to discuss them on air!</p>
 
     </p>
+
+    
 
     
 
@@ -909,6 +897,10 @@ $(document).ready(function() {
     
 
     
+    <p><span class="show-attributions">(Show image attributions)</span><span class="hide-attributions" style="display: none;">(Hide image attributions)</span></p>
+    
+
+    
 
     
 
@@ -917,10 +909,6 @@ $(document).ready(function() {
     
     <div class="credits">
     <h3>Special Thanks</h3>
-    
-
-    
-    <p><span class="show-attributions">(Show image attributions)</span><span class="hide-attributions" style="display: none;">(Hide image attributions)</span></p>
     
 
     

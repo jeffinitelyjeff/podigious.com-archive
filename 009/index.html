@@ -290,22 +290,8 @@ $('#podlove-webplayer').podlovewebplayer({
   timecontrolsVisible: true,
   preload: true
 });
-$(document).ready(function() {
-  $('a').not('.ts').attr('target', '_blank');
-  $('.show-attributions').click(function() {
-    $('.img-box .name').hide();
-    $('.img-box .source').show();
-    $('.show-attributions').hide();
-    $('.hide-attributions').show();
-  });
-  $('.hide-attributions').click(function() {
-    $('.img-box .name').show();
-    $('.img-box .source').hide();
-    $('.show-attributions').show();
-    $('.hide-attributions').hide();
-  });
-});
 </script>
+
     
     <div class="date-line">
       <a class="download" download href="http://audio.podigious.com/podigious_009.mp3" title="Podigious! 009. The Podigi-Bowl"><i class="shake icon-download-cloud"></i> Download (29.5 MB)</a> •
@@ -328,6 +314,8 @@ $(document).ready(function() {
       <p>In celebration of Super Bowl 50, it&#39;s the first installment of the annual(?) Podigi-Bowl! Enjoy as we provide vital post-game analysis on the most important piece of sports history, FoxKid&#39;s 2001 Digi-Bowl.</p>
 
     </p>
+
+    
 
     
 
@@ -833,6 +821,10 @@ $(document).ready(function() {
     
 
     
+    <p><span class="show-attributions">(Show image attributions)</span><span class="hide-attributions" style="display: none;">(Hide image attributions)</span></p>
+    
+
+    
 
     
 
@@ -885,10 +877,6 @@ $(document).ready(function() {
     <h3>Special Thanks</h3>
     
     <p>The podcast is made possible with support from our awesome Patremon. If you want to support the show and get some cool rewards (like stickers, buttons, and early episodes), check out our <a href="https://www.patreon.com/podigious">Patreon campaign</a>.</p>
-    
-
-    
-    <p><span class="show-attributions">(Show image attributions)</span><span class="hide-attributions" style="display: none;">(Hide image attributions)</span></p>
     
 
     

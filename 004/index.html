@@ -282,22 +282,8 @@ $('#podlove-webplayer').podlovewebplayer({
   timecontrolsVisible: true,
   preload: true
 });
-$(document).ready(function() {
-  $('a').not('.ts').attr('target', '_blank');
-  $('.show-attributions').click(function() {
-    $('.img-box .name').hide();
-    $('.img-box .source').show();
-    $('.show-attributions').hide();
-    $('.hide-attributions').show();
-  });
-  $('.hide-attributions').click(function() {
-    $('.img-box .name').show();
-    $('.img-box .source').hide();
-    $('.show-attributions').show();
-    $('.hide-attributions').hide();
-  });
-});
 </script>
+
     
     <div class="date-line">
       <a class="download" download href="http://audio.podigious.com/podigious_004.m4a" title="Podigious! 004. Tri in Wait"><i class="shake icon-download-cloud"></i> Download (17.2 MB)</a> •
@@ -316,6 +302,8 @@ $(document).ready(function() {
 <p>Only a couple more days left to order a season 2 shirt on <a href="http://teespring.com/podigious-s2">TeeSpring</a>!</p>
 
     </p>
+
+    
 
     
 
@@ -940,6 +928,10 @@ $(document).ready(function() {
     
 
     
+    <p><span class="show-attributions">(Show image attributions)</span><span class="hide-attributions" style="display: none;">(Hide image attributions)</span></p>
+    
+
+    
 
     
 
@@ -948,10 +940,6 @@ $(document).ready(function() {
     
     <div class="credits">
     <h3>Special Thanks</h3>
-    
-
-    
-    <p><span class="show-attributions">(Show image attributions)</span><span class="hide-attributions" style="display: none;">(Hide image attributions)</span></p>
     
 
     
