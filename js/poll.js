@@ -251,7 +251,17 @@ $(document).ready(function() {
     ep4bokomonitsdeliciousflo: 'rdd/401/4_brain_food',
     ep4jpitslikeimthebeefandh: 'rdd/401/4_beef_jerky',
     ep5kakuamonandifallofthat: 'rdd/401/5_kangaroo',
-    ep7kojiinthatcreepycastle: 'rdd/401/7_lavender'
+    ep7kojiinthatcreepycastle: 'rdd/401/7_lavender',
+
+    // ep 403
+    ep20frankentrailmonwoowoo: 'rdd/403/20_whatever',
+    ep20cherubimonitappearsso: 'rdd/403/20_pie',
+    ep23seppikmonwhatsitgonna: 'rdd/403/23_boogie',
+    ep23jpdoyourworstranamono: 'rdd/403/23_mad',
+    ep24kojiheyjeepareyouokay: 'rdd/403/24_jeep',
+    ep25bokomonthisisbadthisi: 'rdd/403/25_terrible',
+    ep26zoeifyouyellinthefore: 'rdd/403/26_forest',
+    ep27bokomonibelieveijusts: 'rdd/403/27_santa'
   }
 
   var add_image = function(i, elem) {
