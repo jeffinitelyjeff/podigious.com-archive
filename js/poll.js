@@ -261,7 +261,13 @@ $(document).ready(function() {
     ep24kojiheyjeepareyouokay: 'rdd/403/24_jeep',
     ep25bokomonthisisbadthisi: 'rdd/403/25_terrible',
     ep26zoeifyouyellinthefore: 'rdd/403/26_forest',
-    ep27bokomonibelieveijusts: 'rdd/403/27_santa'
+    ep27bokomonibelieveijusts: 'rdd/403/27_santa',
+
+    // ep 404
+    ep30cherubimonyouhavemyat: 'rdd/404/30_darkness',
+    ep32patamonbetchabetchaic: 'rdd/404/32_syntax',
+    ep33jpcomeonpeoplewhydont: 'rdd/404/33_light',
+    ep35definitelynotrikaandt: 'rdd/404/35_bad'
   }
 
   var add_image = function(i, elem) {
