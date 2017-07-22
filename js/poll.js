@@ -267,7 +267,13 @@ $(document).ready(function() {
     ep30cherubimonyouhavemyat: 'rdd/404/30_darkness',
     ep32patamonbetchabetchaic: 'rdd/404/32_syntax',
     ep33jpcomeonpeoplewhydont: 'rdd/404/33_light',
-    ep35definitelynotrikaandt: 'rdd/404/35_bad'
+    ep35definitelynotrikaandt: 'rdd/404/35_bad',
+
+    // ep 405
+    ep40takuyayeahjusttrustme: 'rdd/405/40_trust',
+    ep42dynasmonwhathowdareyo: 'rdd/405/42_insignificient',
+    ep45sepikmonilookintothis: 'rdd/405/45_staring',
+    ep46zoewecanthaveyouthink: 'rdd/405/46_thinking'
   }
 
   var add_image = function(i, elem) {
