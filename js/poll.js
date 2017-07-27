@@ -273,7 +273,13 @@ $(document).ready(function() {
     ep40takuyayeahjusttrustme: 'rdd/405/40_trust',
     ep42dynasmonwhathowdareyo: 'rdd/405/42_insignificient',
     ep45sepikmonilookintothis: 'rdd/405/45_staring',
-    ep46zoewecanthaveyouthink: 'rdd/405/46_thinking'
+    ep46zoewecanthaveyouthink: 'rdd/405/46_thinking',
+
+    // ep 406
+    ep47takuyafindingoutthaty: 'rdd/406/47_feelings',
+    ep49bokomonhisreignofterr: 'rdd/406/49_rain',
+    ep49takuyasoiwonderwhatll: 'rdd/406/49_happening',
+    ep50newscasterwhenaskedwh: 'rdd/406/50_discharge'
   }
 
   var add_image = function(i, elem) {
