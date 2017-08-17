@@ -279,7 +279,12 @@ $(document).ready(function() {
     ep47takuyafindingoutthaty: 'rdd/406/47_feelings',
     ep49bokomonhisreignofterr: 'rdd/406/49_rain',
     ep49takuyasoiwonderwhatll: 'rdd/406/49_happening',
-    ep50newscasterwhenaskedwh: 'rdd/406/50_discharge'
+    ep50newscasterwhenaskedwh: 'rdd/406/50_discharge',
+
+    m7zoeyouknowwhatsreallypu: 'rdd/407/1_puzzling',
+    m7jphurryitupmybodycantha: 'rdd/407/2_work',
+    m7ashleymanthisiswaytoomu: 'rdd/407/3_battleship',
+    m7kumamonnowimmadferrymon: 'rdd/407/4_chicken'
   }
 
   var add_image = function(i, elem) {
