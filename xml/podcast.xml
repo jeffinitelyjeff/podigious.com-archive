@@ -60,10 +60,12 @@
     <itunes:duration>1:33:11</itunes:duration>
 
     
-    <itunes:image href="http://podigious.com/img/artwork_meikari.jpg" />
+    <itunes:image href="http://podigious.com/img/ep_021/artwork.jpg" />
     
 
     <content:encoded><![CDATA[
+
+  <img src="http://podigious.com/img/ep_021/banner_ext.jpg" />
 
 
 
@@ -212,7 +214,7 @@
 
       ]]></content:encoded>
 
-    <enclosure url="" length="93228327" type="audio/x-m4a" />
+    <enclosure url="http://audio.podigious.com/podigious_021.mp3" length="93228327" type="audio/mpeg" />
 
     
 
