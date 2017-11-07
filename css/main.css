@@ -920,3 +920,7 @@ p.music-credits-header {
   background-color: #456bb8;
   margin-bottom: 16px;
 }
+
+.next-ep-data-squad legend {
+  font-size: 12px;
+}
