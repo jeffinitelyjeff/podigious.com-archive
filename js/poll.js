@@ -281,10 +281,17 @@ $(document).ready(function() {
     ep49takuyasoiwonderwhatll: 'rdd/406/49_happening',
     ep50newscasterwhenaskedwh: 'rdd/406/50_discharge',
 
+    // ep 407
     m7zoeyouknowwhatsreallypu: 'rdd/407/1_puzzling',
     m7jphurryitupmybodycantha: 'rdd/407/2_work',
     m7ashleymanthisiswaytoomu: 'rdd/407/3_battleship',
-    m7kumamonnowimmadferrymon: 'rdd/407/4_chicken'
+    m7kumamonnowimmadferrymon: 'rdd/407/4_chicken',
+
+    // ep 501
+    ep2marcushowcanyoujustsit: 'rdd/501/02_digital_dimwit',
+    ep3yoshinodontworrymarcus: 'rdd/501/03_let_down',
+    ep3mikihessoontopofthings: 'rdd/501/03_on_top',
+    ep5agumonquietasasleeping: 'rdd/501/05_mime'
   }
 
   var add_image = function(i, elem) {
