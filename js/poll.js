@@ -291,7 +291,13 @@ $(document).ready(function() {
     ep2marcushowcanyoujustsit: 'rdd/501/02_digital_dimwit',
     ep3yoshinodontworrymarcus: 'rdd/501/03_let_down',
     ep3mikihessoontopofthings: 'rdd/501/03_on_top',
-    ep5agumonquietasasleeping: 'rdd/501/05_mime'
+    ep5agumonquietasasleeping: 'rdd/501/05_mime',
+
+    // ep 502
+    ep7marcusnofairthomasyout: 'rdd/502/07_confusion',
+    ep7andrewhedisobeyedyouro: 'rdd/502/07_fireworks',
+    ep10marcusitsfightintimet: 'rdd/502/10_boat',
+    ep11agumonheybosswhatsame: 'rdd/502/11_america'
   }
 
   var add_image = function(i, elem) {
