@@ -297,7 +297,17 @@ $(document).ready(function() {
     ep7marcusnofairthomasyout: 'rdd/502/07_confusion',
     ep7andrewhedisobeyedyouro: 'rdd/502/07_fireworks',
     ep10marcusitsfightintimet: 'rdd/502/10_boat',
-    ep11agumonheybosswhatsame: 'rdd/502/11_america'
+    ep11agumonheybosswhatsame: 'rdd/502/11_america',
+
+    ep16marcusdidntitellyouth: 'rdd/503/16_man',
+    ep13marcusitsthedigiviceg: 'rdd/503/13_digiadvice',
+    ep16marcusmedicallicenseh: 'rdd/503/16_medical',
+    ep12marcusiseverythingoka: 'rdd/503/12_brother',
+    ep12sunflowmonsunshinesun: 'rdd/503/12_sunshine',
+    ep14marcustherearesomenew: 'rdd/503/14_humans',
+    ep14marcusweseeweirdstuff: 'rdd/503/14_bug_me',
+    ep18thomasimnotentirelysu: 'rdd/503/18_trust'
+
   }
 
   var add_image = function(i, elem) {
