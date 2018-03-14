@@ -307,8 +307,13 @@ $(document).ready(function() {
     ep12sunflowmonsunshinesun: 'rdd/503/12_sunshine',
     ep14marcustherearesomenew: 'rdd/503/14_humans',
     ep14marcusweseeweirdstuff: 'rdd/503/14_bug_me',
-    ep18thomasimnotentirelysu: 'rdd/503/18_trust'
+    ep18thomasimnotentirelysu: 'rdd/503/18_trust',
 
+    // ep 504
+    ep21keenanfalcomonwhyyouc: 'rdd/504/21_best_friend',
+    ep22megumicommandertheres: 'rdd/504/22_nice',
+    ep22marcusnowthatswhatimt: 'rdd/504/22_talking',
+    ep24marcusyourethelowesto: 'rdd/504/24_snake'
   }
 
   var add_image = function(i, elem) {
