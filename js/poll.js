@@ -313,7 +313,12 @@ $(document).ready(function() {
     ep21keenanfalcomonwhyyouc: 'rdd/504/21_best_friend',
     ep22megumicommandertheres: 'rdd/504/22_nice',
     ep22marcusnowthatswhatimt: 'rdd/504/22_talking',
-    ep24marcusyourethelowesto: 'rdd/504/24_snake'
+    ep24marcusyourethelowesto: 'rdd/504/24_snake',
+
+    ep26agumonthemostimportan: 'rdd/505/26_drivel',
+    ep27sampsonallyouneedtokn: 'rdd/505/27_walking',
+    ep27sampsonmikimegumiimgo: 'rdd/505/27_going',
+    ep29marcusaslongasigettop: 'rdd/505/29_leather'
   }
 
   var add_image = function(i, elem) {
